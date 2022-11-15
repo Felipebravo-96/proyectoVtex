@@ -1,0 +1,24 @@
+{
+    "header-layout.mobile":{
+        "title": "Header Mobile",
+        "children":[
+            "header-row#header__mobile",
+            "header-row#mobile__header--menu",
+            "logo#header__top--logo"
+        ]
+
+      },
+
+      "header-force-center#mobile__logo":{
+        "children":[
+            "logo#header__top--logo"
+        ]
+      },
+      "logo#header__top--logo":{
+        "title": "Logo",
+        "props":{
+          "url" : "assets/img/home.png",
+          "width": 85 
+        }
+      }
+}

@@ -1,0 +1,67 @@
+{
+    "header-row#header__info":{
+        "children":[
+            "flex-layout.row#header__info--contact",
+            "header-spacer",
+            "flex-layout.row#header__info--user"
+        ],
+        "props":{
+          "blockClass": "header__info"
+        }
+    },
+    "flex-layout.row#header__info--contact":{
+        "children":[
+            "rich-text#info--phone",
+            "rich-text#info--mail"
+        ],
+        "props":{
+          "blockClass": "HOLAAA"
+        }
+    },
+    "flex-layout.row#header__info--user":{
+        "children":[
+            "link#info--createAccount",
+            "login"
+            //"link#info--login"
+        ]
+    },
+    "rich-text#info--phone":{
+        "props":{
+            "text": "316 619 2000",
+            "blockClass": "number"
+            
+        }
+    },
+    "rich-text#info--mail":{
+        "props":{
+            "text": "hola@roosteralhorno.com",
+            
+            "blockClass": "email"
+        }
+    },
+    "link#info--createAccount":{
+       "props":{
+        "href": "/",
+        "label": "Crear cuenta",
+        "blockClass": "account"
+       }
+    },
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "blockClass": "login"
+        }
+      },
+    "link#info--login":{
+        "props":{
+            "href": "/",
+            "label": "Iniciar sesión"
+           }
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#home__products--button":{
+        "title": "Mas Productos",
+        "children":[
+            "link#home__products--button"
+        ]
+      
+    },
+    "link#home__products--button":{
+        "title": "Mas Productos button",
+        "props": {
+            "href": "/",
+            "label": "VER TODOS LOS PRODUCTOS",
+            "displayMode": "button"
+        }
+    }
+}

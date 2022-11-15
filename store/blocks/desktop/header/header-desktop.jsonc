@@ -1,0 +1,19 @@
+{
+    "header-layout.desktop":{
+        "title": "Header Desktop",
+        "children":[
+            "header-row#header__info",
+            "header-row#header__menu"
+        ]
+      }
+    
+
+}
+
+
+
+
+
+
+
+//cambiar nombre delos archivos con el nombre final del componente ejemplo home slider promociones o header info

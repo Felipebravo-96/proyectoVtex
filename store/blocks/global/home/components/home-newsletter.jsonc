@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#newsletter":{
+        "title": "newsletter section",
+        "children": [
+            "flex-layout.col#newsletter",
+            "flex-layout.col#facebook"
+        ],
+        "props":{
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }   
+    },
+    "flex-layout.col#newsletter":{
+        "children":[
+            "rich-text#titulo__newsletter",
+            "rich-text#text__newsletter",
+            "rich-text#prueba",
+            "rich-text#prueba",
+            "link#suscribe"
+        ],
+        "props":{
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#titulo__newsletter":{
+        "props": {
+            "text": "NUESTRO NEWSLETTER"
+        }
+    },
+    "rich-text#text__newsletter":{
+        "props": {
+            "text": "¡Suscribete para recibir nuestras últimas novedades!"
+        }
+    },
+    "link#suscribe":{
+        "props": {
+            "label": "INSCRIBIRSE",
+            "href": "/",
+            "displayMode": "button"
+        }
+    },
+    "flex-layout.col#facebook":{
+        "children":[
+            "rich-text#titulo__facebook",
+            "flex-layout.col#facebook__mainSection"
+        ],
+        "props":{
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#titulo__facebook":{
+        "props": {
+            "text": "Estamos en Facebook"
+        }
+    },
+    "flex-layout.col#facebook__mainSection":{
+        "children":[
+            "flex-layout.row#facebook__section--one",
+            "link#facebook__section--one",
+            "link#facebook__section--two"
+        ],
+        "props":{
+            
+        }
+    },
+    "flex-layout.row#facebook__section--one":{
+        "children":[
+            "logo#facebook--logo",
+            "rich-text#text__facebook"
+        ],
+        "props":{
+            
+        }
+    },
+    "logo#facebook--logo":{
+        "title": "Logo",
+        "props":{
+          "url" : "assets/img/home.png",
+          "width": 85 
+        }
+      },
+      "rich-text#text__facebook":{
+        "props": {
+            "text": "Tenis Rooster al Horno | ZAPATOS 100% COLOMBIANOS"
+        }
+      },
+      "link#facebook__section--one":{
+        "props": {
+            "label": "Me Gusta",
+            "href": "/",
+            "displayMode": "button"
+        }
+      },
+      "link#facebook__section--two":{
+        "props": {
+            "label": "Visitá nuestra página",
+            "href": "/",
+            "displayMode": "button"
+        }
+      }
+}

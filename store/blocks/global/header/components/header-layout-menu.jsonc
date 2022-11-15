@@ -1,0 +1,159 @@
+{
+
+    "drawer#header__desktop--menu":{
+        "title":  "drawer menu",
+        "children": [
+            "menu#header__desktop--menu"
+            
+        ],
+        "props":{
+            "blockClass": "menu_container"
+        }
+    },
+    "menu#header__desktop--menu":{
+        "children":[
+            "menu-item#department__one",
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six",
+            "menu-item#department__seven",
+            "menu-item#department__eight",
+            "menu-item#department__nine"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass": "menu_text",
+            "fullWidth": true
+          }
+    },
+    "menu-item#department__one":{
+        "props":{
+            "id": "department__one",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Inicio",
+                "text": "INICIO"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__two":{
+        "props":{
+            "id": "department__two",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "nueva colección",
+                "text": "NUEVA COLECCIÓN"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__three":{
+        "props":{
+            "id": "department__three",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "animados",
+                "text": "ANIMADOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__four":{
+        "props":{
+            "id": "department__four",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "tenis",
+                "text": "TENIS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__five":{
+        "props":{
+            "id": "department__five",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "clásicos",
+                "text": "CLÁSICOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__six":{
+        "props":{
+            "id": "department__six",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "slip on",
+                "text": "SLIP ON"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__seven":{
+        "props":{
+            "id": "department__seven",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "como comprar",
+                "text": "CÓMO COMPRAR"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__eight":{
+        "props":{
+            "id": "department__eight",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "contacto",
+                "text": "CONTACTO"
+            },
+            "blockClass": "items",
+            "fullWidth": true
+            
+        }
+    },
+    "menu-item#department__nine":{
+        "props":{
+            "id": "department__nine",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "entregas",
+                "text": "ENTREGA INMEDIATA"
+            },
+            "blockClass": "items"
+        }
+    }
+}

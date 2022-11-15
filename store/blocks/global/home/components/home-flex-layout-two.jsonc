@@ -1,0 +1,109 @@
+{    
+  "flex-layout.row#home__section--baseButtons":{
+  "title": "Base buttons",
+  "children": [
+    "flex-layout.col#home__section--buttons"
+  ],
+  "props":{
+    "blockClass":"home__secttion--baseButtons",
+    "colSizing": "auto",
+    "horizontalAlign": "center"
+  }
+},
+
+  "flex-layout.col#home__section--buttons":{
+    "title": "Buttons section",
+    "children": [
+      "rich-text#section__buttons--title",
+      "flex-layout.row#section__buttonss" 
+    ],
+    "props":{
+      "blockClass":"home__secttion--buttons",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    
+    }
+  },
+  "rich-text#section__buttons--title":{
+    "title": "tittle buttons",
+    "props":{
+      "text": "# CATEGORÍAS PRINCIPALES",
+      "blockClass": "Texto-Categorias"
+    }
+  },
+  "flex-layout.row#section__buttonss":{
+    "title": "Buttons",
+    "children":[
+      "link#home__link--button1",
+      "link#home__link--button2",
+      "link#home__link--button3",
+      "link#home__link--button4",
+      "link#home__link--button5",
+      "link#home__link--button6",
+      "link#home__link--button7"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "colGap": 4,
+      "blockClass":"BOTONESSSSSSSSSSS"
+    }
+  },
+
+  "link#home__link--button1":{
+    "props":{
+      "href": "/",
+      "label": "TENIS",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+      
+    }
+  },
+  "link#home__link--button2":{
+    "props":{
+      "href": "/",
+      "label": "ANIMADOS",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  },
+  "link#home__link--button3":{
+    "props":{
+      "href": "/",
+      "label": "ESTAMPADOS",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  },
+  "link#home__link--button4":{
+    "props":{
+      "href": "/",
+      "label": "SLIP ON",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  },
+  "link#home__link--button5":{
+    "props":{
+      "href": "/",
+      "label": "CLASSICS",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  },
+  "link#home__link--button6":{
+    "props":{
+      "href": "/",
+      "label": "ENTREGA INMEDIATA",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  },
+  "link#home__link--button7":{
+    "props":{
+      "href": "/",
+      "label": "COOKIES AND CAKES",
+      "displayMode": "button",
+      "blockClass":"buttons-design"
+    }
+  }
+}

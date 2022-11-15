@@ -1,0 +1,29 @@
+{
+    "header-row#mobile__header--menu":{
+        "children":[
+            "link#header__mobile--menu1",
+            "header-spacer",
+            "link#header__mobile--menu2",
+            "header-spacer",
+            "minicart.v2"
+        ],
+        "props":{
+          "blockClass": "header__top"
+        }
+    
+      },
+     
+      "link#header__mobile--menu1":{
+        "props":{
+            "href": "/",
+            "label": "INICIO"
+        }
+      },
+      "link#header__mobile--menu2":{
+        "props":{
+            "href": "/",
+            "label": "PRODUCTOS"
+        }
+      }
+
+}

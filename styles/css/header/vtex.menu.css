@@ -1,0 +1,13 @@
+.styledLinkContent--items{
+    color: white;
+    font-family: "Lato";
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1.5rem;
+}
+.menuContainerNav--menu_text{
+    width: 100%;
+    gap: 40px;
+    padding: 0%;
+}

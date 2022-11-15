@@ -1,0 +1,103 @@
+{
+    "header-row#header__menu":{
+        "title":"Menu",
+        "children":[
+          "drawer#header__desktop--menu",
+          "logo#header__top--logo",
+          "rich-text#lema",
+          "header-spacer",
+          "search-bar",
+          "header-spacer",
+          "minicart.v2"
+        ],
+        "props":{
+          "blockClass": "header__menu"
+        }
+    
+      },
+      "logo#header__top--logo":{
+        "title": "Logo",
+        "props":{
+          "url" : "assets/img/home.png",
+          "width": 85 
+        }
+      },
+      "rich-text#lema":{
+        "props":{
+          "text": "MAS QUE TENIS, SOMOS UN ESTILO DE VIDA.",
+          "blockClass": "lema"
+        }
+      },
+      "flex-layout.row#header__top--menu":{
+        "children":[
+            "link#header--menu1",
+            "link#header--menu2",
+            "link#header--menu3",
+            "link#header--menu4",
+            "link#header--menu5",
+            "link#header--menu6",
+            "link#header--menu7",
+            "link#header--menu8",
+            "link#header--menu9"
+        ]
+      },
+      "link#header--menu1":{
+        "props":{
+            "href": "/",
+            "label": "INICIO"
+        }
+      },
+      "link#header--menu2":{
+        "props":{
+            "href": "/",
+            "label": "NUEVA COLECCIÓN"
+        }
+      },
+      "link#header--menu3":{
+        "props":{
+            "href": "/",
+            "label": "ANIMADOS"
+        }
+      },
+      "link#header--menu4":{
+        "props":{
+            "href": "/",
+            "label": "TENIS"
+        }
+      },
+      "link#header--menu5":{
+        "props":{
+            "href": "/",
+            "label": "CLÁSICOS"
+        }
+      },
+      "link#header--menu6":{
+        "props":{
+            "href": "/",
+            "label": "SLIP ON"
+        }
+      },
+      "link#header--menu7":{
+        "props":{
+            "href": "/",
+            "label": "CÓMO COMPRAR"
+        }
+      },
+      "link#header--menu8":{
+        "props":{
+            "href": "/",
+            "label": "CONTACTO"
+        }
+      },
+      "link#header--menu9":{
+        "props":{
+            "href": "/",
+            "label": "ENTREGA INMEDIATA"
+        }
+      },
+      "rich-text#test":{
+        "props":{
+            "text": "Texto de Prueba"
+        }
+      }
+}

@@ -1,0 +1,45 @@
+{
+    "slider-layout#home__slider--children": {
+        "title": "Slider con hijos declarados",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider",
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three",
+          "image#home__slider--four"
+        ]
+      },
+      "image#home__slider--one": {
+        "props": {
+          "src": "assets/img/slider1.png"
+       
+        }
+      },
+      "image#home__slider--two": {
+        "props": {
+          "src": "assets/img/slider2.png"
+        }
+      },
+      "image#home__slider--three": {
+        "props": {
+          "src": "assets/img/slider3.png"
+        }
+      },
+      "image#home__slider--four": {
+        "props": {
+          "src": "assets/img/slider4.png"
+        }
+      }
+}

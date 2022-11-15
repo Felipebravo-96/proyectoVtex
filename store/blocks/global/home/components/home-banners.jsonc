@@ -1,0 +1,92 @@
+{
+
+    "flex-layout.row#home__contactUs":{
+        "title": "ContactUs Section",
+        "children":[
+            "flex-layout.col#home__contactUs"
+        ]
+        
+    },
+    "flex-layout.col#home__contactUs":{
+        "title": "ContactUs Section--col",
+        "children":[
+            "image#banner__home--one",
+            "rich-text#home__contactUs",
+            "link#home__contactUs"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+            
+          }
+    },
+
+    "image#banner__home--one":{
+        "props":{
+            "src":"assets/img/banner-home-one.webp",
+            "width": "80rem"
+        }
+    },
+    "rich-text#home__contactUs":{
+        "title": "ContactUs text",
+        "props":{
+            "text": "# DISTRIBUIDORES ROOSTER AL HORNO"
+        }
+
+    },
+    "link#home__contactUs":{
+        "title": "ContactUs button",
+        "props":{
+            "href": "/",
+            "label": "CONTÁCTANOS",
+            "displayMode": "button"
+        }
+    },
+
+    "flex-layout.row#home__banner--image":{
+        "title": "banner image",
+        "children":[
+            // "responsive-layout.desktop#home__banner",
+            // "responsive-layout.tablet#home__banner",
+            // "responsive-layout.phone#home__banner"
+            "image#banner__home--two",
+            "image#banner__home--three"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "responsive-layout.desktop#home__banner":{
+        "children":[         
+            "image#banner__home--two",
+            "image#banner__home--three"
+
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+            
+          }
+    },
+    // "flex-layout.row#home__banner--imagetwo" :{
+    //     "children":[
+    //         "image#banner__home--two",
+    //         "image#banner__home--three"
+    //     ]
+    // },
+    "responsive-layout.tablet#home__banner":{
+
+    },
+    "responsive-layout.phone#home__banner":{
+
+    },
+    "image#banner__home--two":{
+        "props":{
+            "src": "assets/img/banner-two.webp"
+        }
+    },
+    "image#banner__home--three":{
+        "props":{
+            "src": "assets/img/banner-three.webp"
+        }
+    }
+}

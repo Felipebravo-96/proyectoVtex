@@ -1,0 +1,178 @@
+{
+    "flex-layout.row#home__products":{
+        "title": "Products  base",
+        "children": [
+          "flex-layout.col#home__products"
+        ],
+        "props":{
+          "blockClass":"mainDiv",
+          "colSizing": "auto",
+          "horizontalAlign": "center"
+          
+        }
+      },
+      "flex-layout.col#home__products":{
+        "title": "Div general",
+        "children":[
+            "rich-text#destacados",
+            "flex-layout.row#home__product--sectionOne",
+            "flex-layout.row#home__product--sectionTwo"
+        ],
+        "props":{
+            "blockClass": "div columna",
+            "verticallAlign": "middle"
+        }
+      },
+      "rich-text#destacados":{
+        "props":{
+            "text": "DESTACADOS"
+        }
+      },
+      "flex-layout.row#home__product--sectionOne":{
+        "children":[
+            "flex-layout.col#sectionOne__one",
+            "flex-layout.col#sectionOne__two",
+            "flex-layout.col#sectionOne__three",
+            "flex-layout.col#sectionOne__four"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.row#home__product--sectionTwo":{
+        "children":[
+            "flex-layout.col#sectionTwo__one",
+            "flex-layout.col#sectionTwo__two",
+            "flex-layout.col#sectionTwo__three",
+            "flex-layout.col#sectionTwo__four"
+        ]
+      },
+      "flex-layout.col#sectionOne__one":{
+        "children":[
+            "image#sectionOne__one",
+            "rich-text#sectionOne__one"
+        ]
+      },
+      "flex-layout.col#sectionOne__two":{
+        "children":[
+            "image#sectionOne__two",
+            "rich-text#sectionOne__two"
+        ]
+    },
+      "flex-layout.col#sectionOne__three":{
+        "children":[
+            "image#sectionOne__three",
+            "rich-text#sectionOne__three"
+        ]
+    },
+      "flex-layout.col#sectionOne__four":{
+        "children":[
+            "image#sectionOne__four",
+            "rich-text#sectionOne__four"
+        ]
+    },
+      "flex-layout.col#sectionTwo__one":{
+        "children":[
+            "image#sectionTwo__one",
+            "rich-text#sectionTwo__one"
+        ]
+    },
+      "flex-layout.col#sectionTwo__two":{
+        "children":[
+            "image#sectionTwo__two",
+            "rich-text#ssectionTwo__two"
+        ]
+    },
+      "flex-layout.col#sectionTwo__three":{
+        "children":[
+            "image#sectionTwo__three",
+            "rich-text#sectionTwo__three"
+        ]
+    },
+      "flex-layout.col#sectionTwo__four":{
+        "children":[
+            "image#sectionTwo__four",
+            "rich-text#sectionTwo__four"
+        ]
+    },
+    "image#sectionOne__one":{
+        "props":{
+            "src": "assets/img/teni1.jpg"
+        }
+    },
+    "rich-text#sectionOne__one":{
+        "props":{
+            "text": "OREO"
+        }
+    },
+    "image#sectionOne__two":{
+        "props":{
+            "src": "assets/img/teni2.jpg"
+        }
+    },
+    "rich-text#sectionOne__two":{
+        "props":{
+            "text": "MILK"
+        }
+    },
+    "image#sectionOne__three":{
+        "props":{
+            "src": "assets/img/teni3.jpg"
+        }
+    },
+    "rich-text#sectionOne__three":{
+        "props":{
+            "text": "TIE DYE"
+        }
+    },
+    "image#sectionOne__four":{
+        "props":{
+            "src": "assets/img/teni4.jpg"
+        }
+    },
+    "rich-text#sectionOne__four":{
+        "props":{
+            "text": "BARBIE"
+        }
+    },
+    "image#sectionTwo__one":{
+        "props":{
+            "src": "assets/img/teni5.jpg"
+        }
+    },
+    "rich-text#sectionTwo__one":{
+        "props":{
+            "text": "MILKY WAY"
+        }
+    },
+    "image#sectionTwo__two":{
+        "props":{
+            "src": "assets/img/teni6.jpg"
+        }
+    },
+    "rich-text#ssectionTwo__two":{
+        "props":{
+            "text": "MARACUYA"
+        }
+    },
+    "image#sectionTwo__three":{
+        "props":{
+            "src": "assets/img/teni7.jpg"
+        }
+    },
+    "rich-text#sectionTwo__three":{
+        "props":{
+            "text": "MENTA"
+        }
+    },
+    "image#sectionTwo__four":{
+        "props":{
+            "src": "assets/img/teni8.jpg"
+        }
+    },
+    "rich-text#sectionTwo__four":{
+        "props":{
+            "text": "COOKIE MONSTER"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#home__slider--children",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--baseButtons",
+      "flex-layout.row#home__products",
+      "flex-layout.row#home__products--button",
+      "flex-layout.row#home__contactUs",
+      "flex-layout.row#home__banner--image",
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "rich-text#prueba": {
+    "props": {
+      "text": "Hola mundo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
