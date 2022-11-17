@@ -14,11 +14,21 @@
     align-items: center;
 }
 
-.flexRow--home__section--firstText{
-
-   
+.flexRow--footerOne{
+    background: #fff;
+    border-bottom: 1px solid #7D7D7D;
+    box-shadow: inset 1px 4px 7px -6px;
+    color: #5F6A79;
+    font-family: "Lato";
 }
-.flexRow--home__section--firstText{
 
+.flexRow--footerTwo {
+  
 }
 
+.flexColChild--createdBy{
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    margin-right: 86px;
+} 

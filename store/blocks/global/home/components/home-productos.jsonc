@@ -1,0 +1,52 @@
+{
+    "search-result-layout.customQuery#probando":{
+        //"blocks": ["search-result-layout"],
+        "props":{
+          "querySchema":{
+            "skusFilter": "ALL",
+            "simulationBehavior": "skip"
+          }
+        },
+        "blocks": [
+          "search-result-layout.desktop",
+          "search-result-layout.mobile",
+          "search-not-found-layout"
+        ]
+      },
+      "search-result-layout.desktop":{
+        "children":[
+          "flex-layout.row#results"
+        ]
+      },
+      "search-result-layout.mobile":{
+        "children":[
+          "flex-layout.row#results"
+        ]
+      },
+      "flex-layout.row#results":{
+        "children":[
+      
+          "flex-layout.col#result-search"
+        ]
+        
+      },
+  
+      "flex-layout.col#result-search":{
+        "children":[
+          "search-content#result-search"
+        ]
+        
+      },
+      "search-content#result-search":{
+        "blocks":[
+          "gallery",
+          "not-found"
+        ]
+      },
+      "gallery":{
+        "blocks":[
+          "product-summary.shelf"
+        ]
+      }
+  
+}

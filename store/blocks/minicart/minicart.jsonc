@@ -1,0 +1,60 @@
+{
+    "minicart.v2":{
+        "props":{
+          "itemCountMode": "total",
+          "quantityDisplay": "always"
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+      },
+      "minicart-base-content":{
+        "blocks":[
+            "minicart-empty-state"
+        ],
+        "children":[
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer"
+        ]
+      },
+      "minicart-empty-state":{
+        "children":[
+            "flex-layout.row#minicart__empty"
+        ]
+      },
+      "flex-layout.row#minicart__empty":{
+        "children":[
+            "flex-layout.col#minicart__empty"
+        ]
+      },
+      "flex-layout.col#minicart__empty":{
+        "children":[
+            "icon-cart#minicart__empty--icon",
+            "rich-text#minicart__empty"
+        ]
+      },
+      "icon-cart#minicart__empty--icon":{
+        "props":{
+            "size": 100
+        }
+      },
+      "flex-layout.row#minicart__footer":{
+         "children": [
+            "minicart-summary",
+            
+            "minicart-checkout-button"
+        ]
+      },
+      "rich-text#minicart__empty":{
+        "props":{
+            "text": "El carrito de compras está vacío.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+      },
+      "rich-text#promo":{
+        "props":{
+            "text": "No olvides las promociones del diasin IVA"
+        }
+      }
+}

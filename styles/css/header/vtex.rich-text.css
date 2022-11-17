@@ -56,3 +56,28 @@ justify-content: center;
     color: #5F6A79;
 }
 
+.heading--titles_footer{
+    font-size: 16px;
+    font-family: "Nunito";
+    letter-spacing: 2px;
+    color: inherit;
+}
+
+.paragraph--text__footer{
+    color: #5F6A79;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.paragraph--copyRight{
+    color: #5F6A79;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.container--copyRight{
+    display: flex;
+    justify-content: end;
+    margin-left: 120px;
+    
+}

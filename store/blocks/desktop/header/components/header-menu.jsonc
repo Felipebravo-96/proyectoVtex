@@ -6,7 +6,7 @@
           "logo#header__top--logo",
           "rich-text#lema",
           "header-spacer",
-          "search-bar",
+          "search-bar#home__search",
           "header-spacer",
           "minicart.v2"
         ],
@@ -99,5 +99,22 @@
         "props":{
             "text": "Texto de Prueba"
         }
+      },
+      "minicart.v2":{
+        "props":{
+          "itemCountMode": "total",
+          "quantityDisplay": "always"
+        }
+      },
+
+      "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
+      },
+      "search-bar#home__search":{
+        "blocks":["autocomplete-result-list.v2"],
+        "props":{
+          "openAutocompleteOnFocus": true
+        } 
+          
       }
 }

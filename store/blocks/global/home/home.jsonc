@@ -8,15 +8,15 @@
       "flex-layout.row#home__products--button",
       "flex-layout.row#home__contactUs",
       "flex-layout.row#home__banner--image",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#newsletter",
+      "search-result-layout.customQuery#probando"
     ]
   },
   "rich-text#prueba": {
     "props": {
       "text": "Hola mundo",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "textPosition": "CENTER"
     }
   }
 }
