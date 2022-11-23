@@ -11,3 +11,9 @@
     max-height: auto !important;
     
 }
+.sliderLayoutContainer--mobile__slider--two{
+    margin-top: 50px;
+}
+.paginationDotsContainer--mobile__slider--two{
+    transform: translateY(20px);
+}

@@ -1,0 +1,43 @@
+{
+    "slider-layout#mobile__slider--two": {
+        "title": "Slider textos mobile",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "mobile__slider--two",
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+            "flex-layout.row#section__one--text",
+        
+            "flex-layout.row#section__two--text",
+          
+            "flex-layout.row#section__three--text"
+        ]
+      },
+      "flex-layout.row#section__one--text":{
+        "children":[
+            "flex-layout.col#section__one--text"
+        ]
+      },
+        
+      "flex-layout.row#section__two--text":{
+        "children":[
+            "flex-layout.col#section__two--text"
+        ]
+      },
+    
+      "flex-layout.row#section__three--text":{
+        "children":[
+            "flex-layout.col#section__three--text"
+        ]
+      }
+
+}

@@ -32,3 +32,36 @@
     margin-top: 15px;
     margin-right: 86px;
 } 
+
+.flexCol--buttonQuantity{
+    z-index: 5;
+   
+}
+
+.flexColChild--buttonQuantity{
+    font-size: 14px;
+    font-family: "lato";
+}
+
+.flexRowContent--containerPCart{
+    border-bottom: 1px solid rgba(29,254,216,0.2);
+    background: rgba(150,150,150,0.06);
+    margin-bottom: 10px;
+}
+.flexRow--subtotalCart{
+    font-size: 14px;
+    font-family: "lato";
+    display: flex;
+    justify-content: center;
+    justify-items: end; 
+    margin-left: 120px;
+    
+    
+}
+.flexRow--BOTONESSSSSSSSSSS{
+    display: flex;
+    
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+}

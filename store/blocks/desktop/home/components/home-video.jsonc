@@ -1,0 +1,13 @@
+{
+    "video#home": {
+    "props": {
+      "width": "70%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=jWjsb_UamSA",
+      "blockClass": "video"
+    }
+  }
+}

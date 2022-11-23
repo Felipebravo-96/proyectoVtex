@@ -1,0 +1,234 @@
+{
+    "header-row#header__mobile":{
+        "children":[
+            "drawer#header__mobile--menu",
+
+            "search-bar#mobile"
+        ],
+        "props":{
+            "blockVlass":"header__middle"
+        }
+    },
+    //menu drawer
+    "drawer#header__mobile--menu":{
+        "children": [
+            "menu#mobile--menu"
+
+        ],      
+        "props":{
+            "blockClass": "menu_container"
+        } 
+    },
+    //login menu
+    "menu#account":{
+        "children":[
+            "menu-item#info--createAccount",
+            "menu-item#login"
+           
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass": "menu_text",
+            "fullWidth": true
+          }
+
+    },
+
+    "menu-item#info--createAccount":{
+       "props":{
+        "href": "/",
+        "label": "Crear cuenta",
+        "blockClass": "account"
+       }
+    },
+    "menu-item#login":{
+        "children":[
+            "login"
+        ]
+    },
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "blockClass": "login"
+        }
+      },
+      //menu
+    "menu#mobile--menu":{
+        "children":[
+            "menu-item#create__account--mobile",
+            "menu-item#login--mobile",
+
+            "menu-item#department__two--mobile",
+            "menu-item#department__three--mobile",
+            "menu-item#department__four--mobile",
+            "menu-item#department__five--mobile",
+            "menu-item#department__six--mobile",
+            "menu-item#department__seven--mobile",
+            "menu-item#department__eight--mobile",
+            "menu-item#department__nine--mobile"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass": "menu_text",
+            "fullWidth": true
+          }
+    },
+    "menu-item#create__account--mobile":{
+        "props":{
+            "id":  "menu-item#create__account--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Crear cuenta",
+                "text": "Crear cuenta"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#login--mobile":{
+        "props":{
+            "id":  "menu-item#login--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Iniciar sesión",
+                "text": "Iniciar sesión"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__two--mobile":{
+        "props":{
+            "id": "department__two--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "nueva colección",
+                "text": "NUEVA COLECCIÓN"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__three--mobile":{
+        "props":{
+            "id": "department__three--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "animados",
+                "text": "ANIMADOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__four--mobile":{
+        "props":{
+            "id": "department__four--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "tenis",
+                "text": "TENIS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__five--mobile":{
+        "props":{
+            "id": "department__five--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "clásicos",
+                "text": "CLÁSICOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__six--mobile":{
+        "props":{
+            "id": "department__six--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "slip on",
+                "text": "SLIP ON"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__seven--mobile":{
+        "props":{
+            "id": "department__seven--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "como comprar",
+                "text": "CÓMO COMPRAR"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#department__eight--mobile":{
+        "props":{
+            "id": "department__eight--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "contacto",
+                "text": "CONTACTO"
+            },
+            "blockClass": "items",
+            "fullWidth": true
+            
+        }
+    },
+    "menu-item#department__nine--mobile":{
+        "props":{
+            "id": "department__nine--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "entregas",
+                "text": "ENTREGA INMEDIATA"
+            },
+            "blockClass": "items"
+        }
+    },
+    //search bar
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
+      },
+    "search-bar#mobile":{
+        "blocks":["autocomplete-result-list.v2"],
+        "props":{
+          "openAutocompleteOnFocus": true
+        } 
+          
+      }
+}

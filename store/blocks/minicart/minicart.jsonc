@@ -5,14 +5,17 @@
           "quantityDisplay": "always"
         },
         "children": [
+            
             "minicart-base-content"
         ]
       },
       "minicart-base-content":{
         "blocks":[
+          
             "minicart-empty-state"
         ],
         "children":[
+          
             "minicart-product-list",
             "flex-layout.row#minicart__footer"
         ]
@@ -40,10 +43,17 @@
       },
       "flex-layout.row#minicart__footer":{
          "children": [
-            "minicart-summary",
-            
-            "minicart-checkout-button"
+            "flex-layout.col#minicart__footer"
+
         ]
+      },
+      "flex-layout.col#minicart__footer":{
+        "children": [
+          
+          "minicart-summary",
+          
+          "minicart-checkout-button"
+      ]
       },
       "rich-text#minicart__empty":{
         "props":{
@@ -52,9 +62,72 @@
             "textPosition": "CENTER"
         }
       },
-      "rich-text#promo":{
+      "minicart-product-list":{
+        "blocks":[
+          "product-list#minicart"
+        ]
+      },
+      "product-list#minicart":{
+        "blocks":[
+          "product-list-content-desktop"
+        ]
+      },
+      "product-list-content-desktop":{
+        "children":[
+          "flex-layout.row#minicart__row--desktop"
+        ]
+      },
+      "flex-layout.row#minicart__row--desktop":{
+        "children":[
+          "flex-layout.row#minicart__section--product",
+          "flex-layout.row#minicart__section--subtotal"
+        ],
         "props":{
-            "text": "No olvides las promociones del diasin IVA"
+          "blockClass":"containerPCart"
+        }
+      },
+      "flex-layout.row#minicart__section--product":{
+        "children":[
+          "product-list-image",
+          "flex-layout.col#minicart__section--info"
+        ]
+      },
+      "flex-layout.col#minicart__section--info":{
+        "children":[
+          "vtex.product-list:product-name",
+          "quantity-selector#minicart"
+          
+        ],
+        "props":{
+    
+          "blockClass": "buttonQuantity"
+          
+        }
+      },
+      "quantity-selector#minicart":{
+        "props":{
+          "mode": "stepper",
+          "blockClass": "STEPEEEE",
+          "width": "5%"
+        }
+      },
+
+
+      "flex-layout.row#minicart__section--subtotal":{
+        "children":[
+          "price",
+          "remove-button"
+        ],
+        "props":{
+          "blockClass": "subtotalCart"
+        }
+      },
+      "product-list-image":{
+        "props":{
+          "width": 50 
         }
       }
+
+
+      
 }

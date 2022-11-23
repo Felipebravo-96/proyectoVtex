@@ -2,7 +2,11 @@
     "flex-layout.row#home__section--one":{
         "title": "Seccion uno",
         "children": [
-          "responsive-layout.desktop#home__slider--text"
+          "flex-layout.col#section__one--text",
+        
+          "flex-layout.col#section__two--text",
+        
+          "flex-layout.col#section__three--text"
 
         ], 
         "props":{
@@ -12,26 +16,6 @@
           "verticalAlign": "middle"
 
         }
-      },
-
-      "responsive-layout.desktop#home__slider--text":{
-        "children":[
-          "flex-layout.col#section__one--text",
-        
-          "flex-layout.col#section__two--text",
-        
-          "flex-layout.col#section__three--text"
-        ]
-      },
-      "responsive-layout.tablet#home__slider--text":{
-        "children":[
-          "rich-text#prueba"
-        ]
-      },
-      "responsive-layout.phone#home__slider--text":{
-        "children":[
-          "rich-text#prueba"
-        ]
       },
 
       "flex-layout.col#section__one--text":{
