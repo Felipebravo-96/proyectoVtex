@@ -1,0 +1,56 @@
+{
+    "search-result-layout.desktop#department-este":{
+        "children":[
+            "responsive-layout.desktop#department"
+        ]
+    },
+    "responsive-layout.desktop#department":{
+        "children":[
+            "flex-layout.row#category__results--desktop"
+        ]
+    },
+    "flex-layout.row#category__results--desktop":{
+        "children":[
+            "flex-layout.col#desktop--filter",
+            "flex-layout.col#desktop--content"
+        ]
+    },
+    "flex-layout.col#desktop--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "25%"
+        }
+    },
+    "flex-layout.col#desktop--content":{
+        "children":[
+            "search-content#results__content--desktop"
+        ],
+        "props":{
+            "width": "75%"
+        }
+    },
+    "search-content#results__content--desktop":{
+        "blocks":[
+  
+            "gallery#desktop__department",
+            "not-found"
+        ]
+    },
+
+    "gallery#desktop__department":{
+        "props":{
+            "layouts":[
+                {
+                    "name":"general-grid",
+                    "component": "GeneralGrid",
+                    "itemsPerRow": 3
+                    
+                }
+            ],
+            "GeneralGrid": "product-summary.shelf#desktop"
+        }
+
+    }
+}
