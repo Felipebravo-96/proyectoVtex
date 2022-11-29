@@ -16,13 +16,14 @@
     
       },
       "logo#header__top--logo":{
-        "title": "Logo",
+        "title": "Logo header",
         "props":{
           "url" : "assets/img/home.png",
           "width": 85 
         }
       },
       "rich-text#lema":{
+        "title": "Lema ",
         "props":{
           "text": "MAS QUE TENIS, SOMOS UN ESTILO DE VIDA.",
           "blockClass": "lema"
