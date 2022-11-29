@@ -1,0 +1,43 @@
+{
+    "store.custom#about-us":{
+        "blocks":[
+            "flex-layout.row#about-us__section--one",
+            "flex-layout.row#about-us__section--two"
+        ]
+    },
+    "flex-layout.row#about-us__section--one":{
+        "children":[
+            "flex-layout.col#about-us__section--one"
+        ]
+    },
+    "flex-layout.row#about-us__section--two":{
+        "children":[
+            "flex-layout.col#about-us__section--two"
+        ]
+    },
+    "flex-layout.col#about-us__section--one":{
+        "children":[
+            "rich-text#quienes-somos"
+        ]
+    },
+    "rich-text#quienes-somos":{
+        "props":{
+            "text": "### QUIÉNES SOMOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#about-us__section--two":{
+        "children":[
+            "rich-text#us"
+        ]
+    },
+    "rich-text#us":{
+        "props":{
+            "text": "Rooster al horno sale del cascarón para el 7 de Marzo de 2011 en un garaje de la ciudad de Palmira , de la mano de dos jóvenes soñadores y emprendedores que buscaban una entrada de dinero, Rooster inicia como una empresa de tenis pintados a mano que vendía sus productos a través de las redes sociales, donde su atractivo más poderoso siempre se caracterizó por tener unos diseños irreverentes, innovadores y de una enorme aceptación entre sus seguidores, años más tarde la técnica de estampado evolucionó, pero el espíritu innovador de Rooster al Horno jamás cambió, para el año 2015 fue nominada por la Revista Portafolio en la categoría Innovación para sus premios Anuales, ha sido reconocida a nivel regional, nacional e internacional por diferentes canales de televisión,  periódicos y notas de Internet como un ejemplo de emprendimiento, innovación y modelo de negocio exitoso, hoy por hoy Rooster al horno ha entregado más de 12.500 tenis a un sinnúmero de soñadores por toda Colombia y algunos lugares del Mundo, unos tenis únicos elaborados con amor y con la promesa de entregar a su público más que un producto, una experiencia, somos más que tenis, somos un concepto.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+
+}

@@ -1,6 +1,6 @@
 {
     "flex-layout.row#home__section--one":{
-        "title": "Seccion uno",
+        "title": "Seccion informativa",
         "children": [
           "flex-layout.col#section__one--text",
         
@@ -19,7 +19,7 @@
       },
 
       "flex-layout.col#section__one--text":{
-        "title": "Texto de seccion 1",
+        "title": "Seccion informativa 1",
         "children":[
           "rich-text#section__one--title",
           "rich-text#section__one--paragraph"
@@ -30,19 +30,21 @@
         }
       },
       "rich-text#section__one--title":{
+        "title": "titulo seccion 1",
         "props":{
           "text": "# ENVIOS A COLOMBIA",
           "blockClass": "texto1-t"
         }
       },
       "rich-text#section__one--paragraph":{
+        "title": "texto seccion 1",
         "props":{
         "text": "Entrega a Travéz de ENVÍA",
         "blockClass": "texto1-p"
         }
       },
       "flex-layout.col#section__two--text":{
-        "title": "Texto de seccion 1",
+        "title": "Seccion informativa 2",
         "children":[
           "rich-text#section__two--title",
           "rich-text#section__two--paragraph"
@@ -53,19 +55,21 @@
         }
       },
       "rich-text#section__two--title":{
+        "title": "titulo seccion 2",
         "props":{
           "text": "# DIFERENTES  METODOS DE PAGO",
           "blockClass": "texto2-t"
         }
       },
       "rich-text#section__two--paragraph":{
+        "title": "texto seccion 2",
         "props":{
         "text": "Tarjetas de crédito, débito, Baloto y Efecty",
         "blockClass": "texto2-p"
         }
       },
       "flex-layout.col#section__three--text":{
-        "title": "Texto de seccion 1",
+        "title": "Seccion informativa 3",
         "children":[
           "rich-text#section__three--title",
           "rich-text#section__three--paragraph"
@@ -76,12 +80,14 @@
         }
       },
       "rich-text#section__three--title":{
+        "title": "titulo seccion 3",
         "props":{
           "text": "#  SITIO SEGURO PARA COMPRAR",
           "blockClass": "texto3-t"
         }
       },
       "rich-text#section__three--paragraph":{
+        "title": "texto seccion 3",
         "props":{
         "text": "Protegemos tus datos con PAYU LATAM",
         "blockClass": "texto3-p"

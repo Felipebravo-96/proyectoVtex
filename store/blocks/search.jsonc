@@ -1,7 +1,119 @@
 {
   "store.search": {
     "blocks": [
+        "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter": "ALL-AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "store.search#category":{
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory":{
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand":{
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "product-summary.shelf#desktop":{
+    "children":[
+      "add-to-list-btn",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-image",
       
+      "product-list-price",  //estos 2 no me funcionan 
+      "product-selling-price",
+      //"product-summary-price"
+    
+      "product-summary-sku-selector",
+      "add-to-cart-button",
+      "modal-trigger#global__quick-view"
+    ]
+  },
+  "product-summary-name":{
+    "props":{
+      "tag": "h1"
+    }
+  },
+  "product-summary-sku-selector":{
+    "props":{
+      
+      "hideImposibleCombinations" : false,
+      "displayMode": "select"
+     
+    }
+  },
+  "modal-trigger#global__quick-view":{
+    "children":[
+      "rich-text#global__quick-view--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "rich-text#global__quick-view--trigger":{
+    "props":{
+      "text":"vista  rapida",
+      "blockClass": "quick-view__rigger"
+    }
+  },
+  "modal-layout#global__quick-view--modal":{
+    "children":[
+      "flex-layout.row#quick-view__modal"
+    ]
+  },
+  "flex-layout.row#quick-view__modal":{
+    "children":[
+      "flex-layout.col#quick-view__modal--image",
+      "flex-layout.col#quick-view__modal--info"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--image":{
+    "children":[
+      "product-images"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--info":{
+    "children":[
+      "add-to-list-btn",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-price",
+      "product-description",
+      "share",
+      "product-quantity",
+      "add-to-cart-button"
     ]
   }
+
 }
+// vtex.product-list:product-name
+// vtex.store-components:product-name 

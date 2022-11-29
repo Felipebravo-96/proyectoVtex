@@ -1,13 +1,36 @@
 {  
     "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer__mobile--one",
-      "flex-layout.row#footer__section--two"
+      "flex-layout.row#footer__section--one--mobile",
+      "flex-layout.row#footer__section--two",
+      "flex-layout.row#footer__section--three"
     ]
   },
+    //section one
+    "flex-layout.row#footer__section--one--mobile":{
+      "children":[
+        "flex-layout.col#footer__section--redes--mobile"
+      ]
+    },
+  
+    "flex-layout.col#footer__section--redes--mobile":{
+      "children":[
+        "rich-text#follow",
+        "rich-text#prueba",
+        "slider-layout#mobile__slider--two"
+      ]
+    },
+  
+    "rich-text#follow":{
+      "props": {
+        "text": "#### SEGUINOS",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
 
-  //section one
-  "flex-layout.row#footer__mobile--one":{
+  //section two
+  "flex-layout.row#footer__mobile--two":{
     "children":[
         "flex-layout.col#footer__section--navegation",
         "flex-layout.col#footer__mobile--payment",
@@ -81,7 +104,7 @@
         "type": "custom",
         "itemProps":{
             "type": "internal",
-            "href": "/",
+            "href": "/about-us",
             "tagTitle": "us",
             "text": "Rooster Al Horno"
         },
@@ -211,8 +234,8 @@
     }
   },
 
-  //section two
-  "flex-layout.row#footer__section--two":{
+  //section three
+  "flex-layout.row#footer__section--three":{
     "children":[
         "flex-layout.col#footer__section--copyright",
         "flex-layout.col#footer__section--createdBy"

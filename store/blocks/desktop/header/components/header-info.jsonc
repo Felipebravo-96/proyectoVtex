@@ -26,6 +26,7 @@
         ]
     },
     "rich-text#info--phone":{
+        "title": "phone",
         "props":{
             "text": "316 619 2000",
             "blockClass": "number"
@@ -33,6 +34,7 @@
         }
     },
     "rich-text#info--mail":{
+        "title": "mail",
         "props":{
             "text": "hola@roosteralhorno.com",
             
@@ -40,6 +42,7 @@
         }
     },
     "link#info--createAccount":{
+       "title": "Create Account",
        "props":{
         "href": "/",
         "label": "Crear cuenta",
@@ -47,6 +50,7 @@
        }
     },
     "login": {
+        "title": "login",
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Acess Code LOG-IN",

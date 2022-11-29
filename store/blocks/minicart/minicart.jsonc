@@ -56,6 +56,7 @@
       ]
       },
       "rich-text#minicart__empty":{
+        "title": "empty cart",
         "props":{
             "text": "El carrito de compras está vacío.",
             "textAlignment": "CENTER",
