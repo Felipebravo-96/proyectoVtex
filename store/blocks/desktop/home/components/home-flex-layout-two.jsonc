@@ -1,6 +1,6 @@
 {    
   "flex-layout.row#home__section--baseButtons":{
-  "title": "Base buttons",
+  "title": "Buttons categories",
   "children": [
     "flex-layout.col#home__section--buttons"
   ],
@@ -50,6 +50,7 @@
   },
 
   "link#home__link--button1":{
+    "title": "Button tenis",
     "props":{
       "href": "/",
       "label": "TENIS",
@@ -59,6 +60,7 @@
     }
   },
   "link#home__link--button2":{
+    "title": "Button animados",
     "props":{
       "href": "/",
       "label": "ANIMADOS",
@@ -67,6 +69,7 @@
     }
   },
   "link#home__link--button3":{
+    "title": "Button estampados",
     "props":{
       "href": "/",
       "label": "ESTAMPADOS",
@@ -75,6 +78,7 @@
     }
   },
   "link#home__link--button4":{
+    "title": "Button slip on",
     "props":{
       "href": "/",
       "label": "SLIP ON",
@@ -83,6 +87,7 @@
     }
   },
   "link#home__link--button5":{
+    "title": "Button classics",
     "props":{
       "href": "/",
       "label": "CLASSICS",
@@ -91,6 +96,7 @@
     }
   },
   "link#home__link--button6":{
+    "title": "Button entrega",
     "props":{
       "href": "/",
       "label": "ENTREGA INMEDIATA",
@@ -99,6 +105,7 @@
     }
   },
   "link#home__link--button7":{
+    "title": "Button cookies",
     "props":{
       "href": "/",
       "label": "COOKIES AND CAKES",

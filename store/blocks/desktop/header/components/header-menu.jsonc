@@ -43,54 +43,63 @@
         ]
       },
       "link#header--menu1":{
+        "title": "INICIO",
         "props":{
             "href": "/",
             "label": "INICIO"
         }
       },
       "link#header--menu2":{
+        "title": "NUEVA COLECCIÓN",
         "props":{
             "href": "/",
             "label": "NUEVA COLECCIÓN"
         }
       },
       "link#header--menu3":{
+        "title": "ANIMADOS",
         "props":{
             "href": "/",
             "label": "ANIMADOS"
         }
       },
       "link#header--menu4":{
+        "title": "TENIS",
         "props":{
             "href": "/",
             "label": "TENIS"
         }
       },
       "link#header--menu5":{
+        "title": "CLÁSICOS",
         "props":{
             "href": "/",
             "label": "CLÁSICOS"
         }
       },
       "link#header--menu6":{
+        "title": "SLIP ON",
         "props":{
             "href": "/",
             "label": "SLIP ON"
         }
       },
       "link#header--menu7":{
+        "title": "CÓMO COMPRAR",
         "props":{
             "href": "/",
             "label": "CÓMO COMPRAR"
         }
       },
       "link#header--menu8":{
+        "title": "CONTACTO",
         "props":{
             "href": "/",
             "label": "CONTACTO"
         }
       },
       "link#header--menu9":{
+        "title": "ENTREGA INMEDIATA",
         "props":{
             "href": "/",
             "label": "ENTREGA INMEDIATA"
@@ -102,6 +111,7 @@
         }
       },
       "minicart.v2":{
+        "title": "Minicart",
         "props":{
           "itemCountMode": "total",
           "quantityDisplay": "always"
@@ -112,6 +122,7 @@
         "blocks": ["product-summary"]
       },
       "search-bar#home__search":{
+        "title": "SearchBar",
         "blocks":["autocomplete-result-list.v2"],
         "props":{
           "openAutocompleteOnFocus": true

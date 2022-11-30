@@ -21,6 +21,7 @@
     },
 
     "image#banner__home--one":{
+        "title": "Banner 1",
         "props":{
             "src":"assets/img/banner-home-one.webp",
             "width": "80rem"
@@ -43,7 +44,7 @@
     },
 
     "flex-layout.row#home__banner--image":{
-        "title": "banner image",
+        "title": "banner images",
         "children":[
             // "responsive-layout.desktop#home__banner",
             // "responsive-layout.tablet#home__banner",
@@ -80,11 +81,13 @@
 
     },
     "image#banner__home--two":{
+        "title": "Banner 2",
         "props":{
             "src": "assets/img/banner-two.webp"
         }
     },
     "image#banner__home--three":{
+        "title": "Banner 3",
         "props":{
             "src": "assets/img/banner-three.webp"
         }

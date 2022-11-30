@@ -1,5 +1,6 @@
 {  
     "footer-layout.desktop": { 
+      "title": "Footer desktop",
     "children": [
       "flex-layout.row#footer__section--one",
       "flex-layout.row#footer__section--two",
@@ -8,12 +9,14 @@
   },
   //section one
   "flex-layout.row#footer__section--one":{
+    "title": "footer section 1",
     "children":[
       "flex-layout.col#footer__section--redes"
     ]
   },
 
   "flex-layout.col#footer__section--redes":{
+    "title": "footer section redes",
     "children":[
       "rich-text#follow",
       "rich-text#prueba",
@@ -22,12 +25,14 @@
   },
 
   "rich-text#follow":{
+    "title": "Seguinos",
     "props": {
       "text": "SEGUINOS"
     }
   },
   //section two
   "flex-layout.row#footer__section--two":{
+    "title": "footer section 2",
     "children":[
         "flex-layout.col#footer__section--navegation",
         "flex-layout.col#footer__section--payment",
@@ -41,6 +46,7 @@
   },
   //navigation
   "flex-layout.col#footer__section--navegation":{
+    "title": "footer section navegation",
     "children":[
         "rich-text#navegation",
         "menu#navegation"
@@ -51,12 +57,14 @@
     }
   },
   "rich-text#navegation":{
+    "title": "Navegacion",
     "props":{
         "text": "# NAVEGACIÓN",
         "blockClass": "titles_footer"
     }
   },
   "menu#navegation":{
+    "title": "Menu footer",
     "children":[
         "menu-item#whatsapp",
         "menu-item#howToBuy",
@@ -70,6 +78,7 @@
       }
   },
   "menu-item#whatsapp":{
+    "title": "Menu whatsapp",
     "props":{
         "id": "menu-whatsapp",
         "type": "custom",
@@ -83,6 +92,7 @@
     }
   },
   "menu-item#howToBuy":{
+    "title": "Menu howToBuy",
     "props":{
         "id": "menu-howToBuy",
         "type": "custom",
@@ -96,6 +106,7 @@
     }
 },
   "menu-item#us":{
+    "title": "Menu Us",
     "props":{
         "id": "menu-us",
         "type": "custom",
@@ -109,6 +120,7 @@
     }
 },
   "menu-item#blog":{
+    "title": "Menu Blog",
     "props":{
         "id": "menu-blog",
         "type": "custom",
@@ -122,6 +134,7 @@
     }
 },
   "menu-item#policies":{
+    "title": "Menu policies",
     "props":{
         "id": "menu-policies",
         "type": "custom",
@@ -135,6 +148,7 @@
     }
 },
   "menu-item#findUs":{
+    "title": "Menu findUs",
     "props":{
         "id": "menu-findUs",
         "type": "custom",
@@ -150,6 +164,7 @@
 
   //PAYMENT
   "flex-layout.col#footer__section--payment":{
+    "title": "Footer section payment",
     "children":[
       "rich-text#payment",
       "image#payment"
@@ -159,6 +174,7 @@
     }
   },
   "rich-text#payment":{
+    "title": "Payment text",
     "props":{
       "text":"# MEDIOS DE PAGO",
       "textAlignment": "LEFT",
@@ -167,6 +183,7 @@
     }
   },
   "image#payment":{
+    "title": "Payment image",
     "props":{
       "src":"assets/img/payment.png"
     }
@@ -175,6 +192,7 @@
   //CONTACTO
 
   "flex-layout.col#footer__section--contact":{
+    "title": "Footer section contact",
     "children":[
         "rich-text#contact",
         "rich-text#number",
@@ -185,6 +203,7 @@
     }
   },
   "rich-text#contact":{
+    "title": "Contact text",
     "props":{
       "text": "# CONTACTANOS",
       "textAlignment": "CENTER",
@@ -193,12 +212,14 @@
     }
   },
   "rich-text#number":{
+    "title": "Phone footer",
     "props":{
       "text": "316 619 2000",
       "blockClass": "text__footer"
     }
   },
   "link#footer__mail":{
+    "title": "Mail footer",
     "props":{
       "label": "hola@roosteralhorno.com",
       "href": "/",
@@ -208,6 +229,7 @@
 
   //INFORMACION LEGAL
   "flex-layout.col#footer__section--legal":{
+    "title": "Footer section legal",
     "children":[
         "rich-text#legal",
         "image#legal"
@@ -217,6 +239,7 @@
     }
   },
   "rich-text#legal":{
+    "title": "Text legal",
     "props":{
       "text": "# INFORMACIÓN LEGAL",
       "textAlignment": "CENTER",
@@ -226,6 +249,7 @@
     }
   },
   "image#legal":{
+    "title": "legal image",
     "props":{
       "src": "assets/img/envio.png"
     }
@@ -233,6 +257,7 @@
 
   //section three
   "flex-layout.row#footer__section--three":{
+    "title": "Footer section 3",
     "children":[
         "flex-layout.col#footer__section--copyright",
         "flex-layout.col#footer__section--createdBy"
@@ -242,11 +267,13 @@
     }
   },
   "flex-layout.col#footer__section--copyright":{
+    "title": "Copyright section",
     "children":[
         "rich-text#copyright"
     ]
   },
   "flex-layout.col#footer__section--createdBy":{
+    "title": "CreatedBy section",
     "children":[
         "link#createdBy"
     ],
@@ -255,12 +282,14 @@
     }
   },
   "rich-text#copyright":{
+    "title": "Copyright text",
     "props":{
         "text": "Copyright Tenis Rooster al Horno | ZAPATOS 100% COLOMBIANOS - 2022. Todos los derechos reservados.",
         "blockClass":"copyRight"
     }
   },
   "link#createdBy":{
+    "title": "CreatedBy text",
     "props":{
         "label": "creado con || tiendanube",
         "href": "https://www.tiendanube.com/?utm_source=store&utm_medium=referral&utm_campaign=footerSlogan"
