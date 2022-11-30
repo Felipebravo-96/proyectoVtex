@@ -1,5 +1,6 @@
 {
     "header-row#header__info":{
+        "title": "header info section",
         "children":[
             "flex-layout.row#header__info--contact",
             "header-spacer",
@@ -10,6 +11,7 @@
         }
     },
     "flex-layout.row#header__info--contact":{
+        "title": "header  info section 1",
         "children":[
             "rich-text#info--phone",
             "rich-text#info--mail"
@@ -19,6 +21,7 @@
         }
     },
     "flex-layout.row#header__info--user":{
+        "title": "header  info section 2",
         "children":[
             "link#info--createAccount",
             "login"
@@ -60,12 +63,6 @@
           "showIconProfile": true,
           "blockClass": "login"
         }
-      },
-    "link#info--login":{
-        "props":{
-            "href": "/",
-            "label": "Iniciar sesión"
-           }
-    }
+      }
 
 }

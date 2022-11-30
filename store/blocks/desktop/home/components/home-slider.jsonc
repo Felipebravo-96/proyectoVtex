@@ -22,22 +22,26 @@
         ]
       },
       "image#home__slider--one": {
+        "title": "image slider 1",
         "props": {
           "src": "assets/img/slider1.png"
        
         }
       },
       "image#home__slider--two": {
+        "title": "image slider 2",
         "props": {
           "src": "assets/img/slider2.png"
         }
       },
       "image#home__slider--three": {
+        "title": "image slider 3",
         "props": {
           "src": "assets/img/slider3.png"
         }
       },
       "image#home__slider--four": {
+        "title": "image slider 4",
         "props": {
           "src": "assets/img/slider4.png"
         }

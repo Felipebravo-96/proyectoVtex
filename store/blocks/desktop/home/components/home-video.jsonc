@@ -1,5 +1,6 @@
 {
     "video#home": {
+    "title": "Video home",
     "props": {
       "width": "70%",
       "height": "600px",

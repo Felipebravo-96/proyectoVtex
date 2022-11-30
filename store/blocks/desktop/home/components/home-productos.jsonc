@@ -1,5 +1,6 @@
 {
     "search-result-layout.customQuery#probando":{
+      "title": "search result section",
         //"blocks": ["search-result-layout"],
         "props":{
           "querySchema":{
@@ -14,16 +15,19 @@
         ]
       },
       "search-result-layout.desktop":{
+        "title": "search result desktop",
         "children":[
           "flex-layout.row#results"
         ]
       },
       "search-result-layout.mobile":{
+        "title": "search result mobile",
         "children":[
           "flex-layout.row#results"
         ]
       },
       "flex-layout.row#results":{
+        "title": "search result row",
         "children":[
       
           "flex-layout.col#result-search"
@@ -32,18 +36,21 @@
       },
   
       "flex-layout.col#result-search":{
+        "title": "search result col",
         "children":[
           "search-content#result-search"
         ]
         
       },
       "search-content#result-search":{
+        "title": "search content products",
         "blocks":[
           "gallery",
           "not-found"
         ]
       },
       "gallery":{
+        "title": "products",
         "blocks":[
           "product-summary.shelf"
         ]

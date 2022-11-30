@@ -11,6 +11,7 @@
         }   
     },
     "flex-layout.col#newsletter":{
+        "title": "newsletter",
         "children":[
             "rich-text#titulo__newsletter",
             "rich-text#text__newsletter",
@@ -24,16 +25,19 @@
         }
     },
     "rich-text#titulo__newsletter":{
+        "title": "newsletter title",
         "props": {
             "text": "NUESTRO NEWSLETTER"
         }
     },
     "rich-text#text__newsletter":{
+        "title": "suscribe",
         "props": {
             "text": "¡Suscribete para recibir nuestras últimas novedades!"
         }
     },
     "link#suscribe":{
+        "title": "suscribe button",
         "props": {
             "label": "INSCRIBIRSE",
             "href": "/",
@@ -41,6 +45,7 @@
         }
     },
     "flex-layout.col#facebook":{
+        "title": "facebook",
         "children":[
             "rich-text#titulo__facebook",
             "flex-layout.col#facebook__mainSection"
@@ -51,11 +56,13 @@
         }
     },
     "rich-text#titulo__facebook":{
+        "title": "facebook title",
         "props": {
             "text": "Estamos en Facebook"
         }
     },
     "flex-layout.col#facebook__mainSection":{
+        "title": "facebook section",
         "children":[
             "flex-layout.row#facebook__section--one",
             "link#facebook__section--one",
@@ -66,6 +73,7 @@
         }
     },
     "flex-layout.row#facebook__section--one":{
+        "title": "facebook section 1",
         "children":[
             "logo#facebook--logo",
             "rich-text#text__facebook"
@@ -75,18 +83,20 @@
         }
     },
     "logo#facebook--logo":{
-        "title": "Logo",
+        "title": "Logo  facebook",
         "props":{
           "url" : "assets/img/home.png",
           "width": 85 
         }
       },
       "rich-text#text__facebook":{
+        "title": "text Rooster",
         "props": {
             "text": "Tenis Rooster al Horno | ZAPATOS 100% COLOMBIANOS"
         }
       },
       "link#facebook__section--one":{
+        "title": "like button",
         "props": {
             "label": "Me Gusta",
             "href": "/",
@@ -94,6 +104,7 @@
         }
       },
       "link#facebook__section--two":{
+        "title": "facebook button",
         "props": {
             "label": "Visitá nuestra página",
             "href": "/",
