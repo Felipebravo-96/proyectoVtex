@@ -1,17 +1,27 @@
 {
     "responsive-layout.desktop#home":{
         "children": [
+            "whatsapp-button",
             "slider-layout#home__slider--children",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
-            "flex-layout.row#home__products",
-            "flex-layout.row#home__products--button",
+            "search-result-layout.customQuery#probando",
+            // "flex-layout.row#home__products",
+            // "flex-layout.row#home__products--button",
             "flex-layout.row#home__contactUs",
             "slider-layout#products__slider--two",
             "flex-layout.row#home__banner--image",
             "flex-layout.row#newsletter",
-            "search-result-layout.customQuery#probando",
+            // "search-result-layout.customQuery#probando",`
+            
             "video#home"
           ]
+    },
+    "whatsapp-button":{
+        "props":{
+            "logo": "assets/img/wtsp.png",
+            "phone": "7777777",
+            "message": "Rooster Al Horno"
+        }
     }
 }

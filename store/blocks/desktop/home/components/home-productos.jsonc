@@ -52,7 +52,7 @@
       "gallery":{
         "title": "products",
         "blocks":[
-          "product-summary.shelf"
+          "product-summary.shelf#home--products"
         ]
       }
   
