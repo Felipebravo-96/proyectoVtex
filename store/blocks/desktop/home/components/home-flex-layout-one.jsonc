@@ -2,6 +2,7 @@
     "flex-layout.row#home__section--one":{
         "title": "Seccion informativa",
         "children": [
+        
           "flex-layout.col#section__one--text",
         
           "flex-layout.col#section__two--text",
@@ -21,12 +22,31 @@
       "flex-layout.col#section__one--text":{
         "title": "Seccion informativa 1",
         "children":[
-          "rich-text#section__one--title",
+          "flex-layout.row#section--title--icon-1",
+          
           "rich-text#section__one--paragraph"
         ],
         "props":{
          
           "blockClass": "texto1"
+        }
+      },
+
+      "flex-layout.row#section--title--icon-1":{
+        "children":[
+          "icon#prueba",
+          "rich-text#section__one--title"
+        ],
+        "props":{
+          "blockClass": "title_icon"
+        }
+      },
+
+      "icon#prueba":{
+        "props":{
+          "id": "sti-clock",
+          "size": 15,
+          "orientation": "left"
         }
       },
       "rich-text#section__one--title":{
@@ -46,12 +66,21 @@
       "flex-layout.col#section__two--text":{
         "title": "Seccion informativa 2",
         "children":[
-          "rich-text#section__two--title",
+          "flex-layout.row#section--title--icon-2",
           "rich-text#section__two--paragraph"
         ],
         "props":{
           
           "blockClass": "texto2"
+        }
+      },
+      "flex-layout.row#section--title--icon-2":{
+        "children":[
+          "icon#prueba",
+          "rich-text#section__two--title"
+        ],
+        "props":{
+          "blockClass": "title_icon"
         }
       },
       "rich-text#section__two--title":{
@@ -71,12 +100,22 @@
       "flex-layout.col#section__three--text":{
         "title": "Seccion informativa 3",
         "children":[
-          "rich-text#section__three--title",
+          "flex-layout.row#section--title--icon-3",
+
           "rich-text#section__three--paragraph"
         ],
         "props":{
         
           "blockClass": "texto1"
+        }
+      },
+      "flex-layout.row#section--title--icon-3":{
+        "children":[
+          "icon#prueba",
+          "rich-text#section__three--title"
+        ],
+        "props":{
+          "blockClass": "title_icon"
         }
       },
       "rich-text#section__three--title":{

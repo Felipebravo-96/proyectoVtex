@@ -60,8 +60,21 @@
 }
 .flexRow--BOTONESSSSSSSSSSS{
     display: flex;
+    flex-direction: row;
     
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: proximity;
+    margin-bottom: 2rem;
+}
+
+.flexRowContent--title_icon{
+    align-items: center;
+
+}
+.flexRowContent--banner__contact{
+    margin-top: 2rem;
+}
+.flexRow--all_products{
+    margin-top: 2rem;
 }

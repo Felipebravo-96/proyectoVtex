@@ -19,15 +19,37 @@
     "title": "footer section redes",
     "children":[
       "rich-text#follow",
-      "rich-text#prueba",
+      "social-networks",
       "flex-layout.row#home__section--one"
-    ]
+    ],
+    "props":{
+      "horizontalAlign" :"center",
+      "verticalAlign":"middle"
+    }
   },
 
   "rich-text#follow":{
     "title": "Seguinos",
     "props": {
       "text": "SEGUINOS"
+    }
+  },
+  "social-networks":{
+    "props":{
+      "socialNetworks":[
+        {
+          "url": "https://www.facebook.com/roosteralhorno",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/Roosteralhorno",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://www.pinterest.es/roosteralhorno/",
+          "name": "Pinterest"
+        }
+      ]
     }
   },
   //section two

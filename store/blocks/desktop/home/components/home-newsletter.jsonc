@@ -15,15 +15,47 @@
         "children":[
             "rich-text#titulo__newsletter",
             "rich-text#text__newsletter",
-            "rich-text#prueba",
-            "rich-text#prueba",
-            "link#suscribe"
+            "newsletter-form"
+           
+           
         ],
         "props":{
             "verticalAlign": "middle",
             "horizontalAlign": "center"
         }
     },
+    //form
+    "newsletter-form": {
+        "title": "Newsletter Form",
+        "children":[
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    
+    },
+    "newsletter-input-name":{
+        "title": "Name Form",
+        "props":{
+            "placeholderText": "Nombre",
+            "errorMessage": "Introduce tu nombre"
+        }
+    },
+    "newsletter-input-email":{
+        "title": "Email Form",
+        "props":{
+            "placeholderText": "Tu E-mail",
+            "errorMessage": "Introduce una  direccion E-mail correcta"
+        }
+    },
+    "newsletter-submit":{
+        "props":{
+            "submitButtonLabel": "INSCRIBIRSE"
+        }
+    },
+
+
+
     "rich-text#titulo__newsletter":{
         "title": "newsletter title",
         "props": {
