@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#footer__section--one--mobile",
       "flex-layout.row#footer__section--two",
-      "flex-layout.row#footer__section--three"
+      "flex-layout.row#footer__section--three--mobile"
     ]
   },
     //section one
@@ -16,9 +16,13 @@
     "flex-layout.col#footer__section--redes--mobile":{
       "children":[
         "rich-text#follow",
-        "rich-text#prueba",
+        "social-networks",
         "slider-layout#mobile__slider--two"
-      ]
+      ],
+      "props":{
+        "horizontalAlign" :"center",
+        "verticalAlign":"middle"
+      }
     },
   
     "rich-text#follow":{
@@ -235,7 +239,7 @@
   },
 
   //section three
-  "flex-layout.row#footer__section--three":{
+  "flex-layout.row#footer__section--three--mobile":{
     "children":[
         "flex-layout.col#footer__section--copyright",
         "flex-layout.col#footer__section--createdBy"

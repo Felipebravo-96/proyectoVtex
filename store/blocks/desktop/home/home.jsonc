@@ -3,6 +3,7 @@
         "children": [
             "whatsapp-button",
             "slider-layout#home__slider--children",
+            //"list-context.bullet-group",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
             "search-result-layout.customQuery#probando",
@@ -22,6 +23,17 @@
             "logo": "assets/img/wtsp.png",
             "phone": "7777777",
             "message": "Rooster Al Horno"
+        }
+    },
+    "list-context.bullet-group":{
+        "props":{
+            "bullets": {
+                "image": "miimagen.png",
+                "titleBullet": "Computadores",
+                "link":{
+                    "url": "/"
+                }
+            }
         }
     }
 }

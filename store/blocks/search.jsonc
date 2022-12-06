@@ -48,7 +48,8 @@
 
   "search-result-layout":{
     "blocks":[  
-      "search-result-layout.desktop#department-este"
+      "search-result-layout.desktop#department-este",
+      "search-result-layout.mobile#department"
     ]
   },
 
@@ -130,16 +131,13 @@
 
   "product-summary.shelf#home--products":{
     "children":[
-      
-   
+    
       "product-summary-image#home--products",
       "product-summary-name#home--products",
       "product-list-price",  //estos 2 no me funcionan 
-      "product-selling-price",
+      "product-selling-price"
       //"product-summary-price"
     
-      
-      "modal-trigger#global__quick-view#home--products"
     ]
   },
   "product-summary-image#home--products":{

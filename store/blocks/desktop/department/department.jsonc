@@ -50,6 +50,7 @@
                     "component": "GeneralGrid",
                     "itemsPerRow": 3
                     
+                    
                 }
             ],
             "GeneralGrid": "product-summary.shelf#desktop"
