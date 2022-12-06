@@ -1,5 +1,21 @@
 {
       //slider 2
+      "flex-layout.row#slider--products":{
+        "children":[
+          "list-context.product-list#demo1"
+        ],
+        "props":{
+          "blockClass": "slider--prodcuts"
+        }
+       
+      },
+
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf#home--products"],
+        "children": ["slider-layout#products__slider--two"]
+      },
+
+
       "slider-layout#products__slider--two": {
         "title": "Slider productos",
         "props": {
@@ -14,17 +30,7 @@
             "timeout": 3000,
             "stopOnHover": true
           }
-        },
-        "children": [
-          "image#product--one",
-          "image#product--two",
-          "image#product--three",
-          "image#product--four",
-          "image#product--five",
-          "image#product--six",
-          "image#product--seven",
-          "image#product--eight"
-        ]
+        }
       },
       "image#product--one": {
         "props": {

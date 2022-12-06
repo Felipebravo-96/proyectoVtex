@@ -17,6 +17,7 @@
     },
     "flex-layout.col#desktop--filter":{
         "children":[
+            "breadcrumb.search",
             "filter-navigator.v3"
         ],
         "props":{
@@ -25,6 +26,7 @@
     },
     "flex-layout.col#desktop--content":{
         "children":[
+            
             "search-content#results__content--desktop"
         ],
         "props":{
@@ -33,13 +35,14 @@
     },
     "search-content#results__content--desktop":{
         "blocks":[
-  
+            
             "gallery#desktop__department",
             "not-found"
         ]
     },
 
     "gallery#desktop__department":{
+        
         "props":{
             "layouts":[
                 {

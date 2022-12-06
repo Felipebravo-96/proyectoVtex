@@ -4,7 +4,11 @@
         "title": "ContactUs Section",
         "children":[
             "flex-layout.col#home__contactUs"
-        ]
+        ],
+        "props":{
+            "blockClass": "banner__contact"
+
+          }
         
     },
     "flex-layout.col#home__contactUs":{
@@ -15,8 +19,9 @@
             "link#home__contactUs"
         ],
         "props":{
-            "horizontalAlign": "center"
-            
+            "horizontalAlign": "center",
+            "blockClass": "banner__contact"
+
           }
     },
 

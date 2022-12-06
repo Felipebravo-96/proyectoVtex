@@ -4,13 +4,12 @@
             "slider-layout#home__slider--children",
             "slider-layout#mobile__slider--two",
             "flex-layout.row#home__section--baseButtons",
-            "flex-layout.row#home__products",
+            "search-result-layout.customQuery#probando",
             "flex-layout.row#home__products--button",
             "flex-layout.row#home__contactUs",
-            "slider-layout#products__slider--two",
+            "flex-layout.row#slider--products",
             "flex-layout.row#home__banner--image",
             "flex-layout.row#newsletter",
-            "search-result-layout.customQuery#probando",
             "video#home--mobile"
           ]
     }

@@ -3,7 +3,10 @@
         "title": "Mas Productos",
         "children":[
             "link#home__products--button"
-        ]
+        ],
+        "props":{
+            "blockClass": "all_products"
+        }
       
     },
     "link#home__products--button":{
@@ -11,7 +14,8 @@
         "props": {
             "href": "/",
             "label": "VER TODOS LOS PRODUCTOS",
-            "displayMode": "button"
+            "displayMode": "button",
+            "blockClass": "all_products"
         }
     }
 }

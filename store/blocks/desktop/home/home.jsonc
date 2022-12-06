@@ -9,7 +9,7 @@
             // "flex-layout.row#home__products",
             // "flex-layout.row#home__products--button",
             "flex-layout.row#home__contactUs",
-            "slider-layout#products__slider--two",
+            "flex-layout.row#slider--products",
             "flex-layout.row#home__banner--image",
             "flex-layout.row#newsletter",
             // "search-result-layout.customQuery#probando",`

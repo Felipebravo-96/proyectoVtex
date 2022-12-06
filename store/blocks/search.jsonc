@@ -5,7 +5,7 @@
     ],
     "props":{
       "context":{
-        "skusFilter": "ALL-AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -17,7 +17,7 @@
     ],
     "props":{
       "context":{
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -28,7 +28,7 @@
     ],
     "props":{
       "context":{
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -39,11 +39,23 @@
     ],
     "props":{
       "context":{
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
   },
+  // lo que renderizara mi buscador
+
+  "search-result-layout":{
+    "blocks":[  
+      "search-result-layout.desktop#department-este"
+    ]
+  },
+
+
+
+
+  //shelf de paginas individuales
   "product-summary.shelf#desktop":{
     "children":[
       "add-to-list-btn",
@@ -126,7 +138,7 @@
       "product-selling-price",
       //"product-summary-price"
     
-      "add-to-cart-button",
+      
       "modal-trigger#global__quick-view#home--products"
     ]
   },

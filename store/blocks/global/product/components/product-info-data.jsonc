@@ -27,11 +27,32 @@
             "product-rating-inline",
             "product-price",
             "product-quantity",
-            "product-add-to-list-button",
+            
             "product-description",
+
+            "add-to-cart-button",
+            //"flex-layout.row#buy-button",
             "shipping-simulator",
             "availability-subscriber"
             
         ]
+      },
+
+
+
+      "flex-layout.row#buy-button": {
+        "props": {
+          "marginTop": 4,
+          "marginBottom": 7
+        },
+        "children": ["buy-button#lola"]
+      },
+      "buy-button#lola":{
+        "props":{
+          
+          "shouldOpenMinicart": true,
+          "large": false
+        }
       }
+
 }
