@@ -13,8 +13,6 @@
             "flex-layout.row#slider--products",
             "flex-layout.row#home__banner--image",
             "flex-layout.row#newsletter",
-            // "search-result-layout.customQuery#probando",`
-            
             "video#home"
           ]
     },

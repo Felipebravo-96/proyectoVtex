@@ -132,13 +132,32 @@
   "product-summary.shelf#home--products":{
     "children":[
     
-      "product-summary-image#home--products",
-      "product-summary-name#home--products",
-      "product-list-price",  //estos 2 no me funcionan 
-      "product-selling-price"
-      //"product-summary-price"
+      
+      "flex-layout.col#image", 
+      "flex-layout.col#info" 
+    ],
+    "props":{
+      "blockClass":"containerCard"
+    }
+  },
+  "flex-layout.col#image":{
+    "children":[
+      "product-summary-image#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaImage"
+    }
     
-    ]
+  },
+  "flex-layout.col#info":{
+    "children":[
+      "product-summary-name#home--products",
+      "product-list-price",  
+      "product-selling-price#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaInfo"
+    }
   },
   "product-summary-image#home--products":{
     "props":{
@@ -148,7 +167,14 @@
 
   "product-summary-name#home--products":{
     "props":{
-      "tag": "h1"
+      "tag": "h1",
+      "blockClass":"pVitrinaName"
+    }
+  },
+  "product-selling-price#home--products":{
+    "props":{
+     
+      "blockClass":"pVitrinaPrice"
     }
   },
   "product-summary-sku-selector#home--products":{

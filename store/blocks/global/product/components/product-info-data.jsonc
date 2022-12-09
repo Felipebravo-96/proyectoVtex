@@ -15,30 +15,56 @@
       "product-images#product__info":{
         "title": "product images",
         "props":{
-            "zoomMode": "open-modal"
+            "zoomMode": "in-place-hover",
+            "thumbnailsOrientation": "horizontal",
+            "showPaginationDots": false,
+            "maxHeight": 400 
         }
       },
       "flex-layout.col#product__info--data":{
         "title": "data del producto",
         "children":[
-            "share",
             "vtex.store-components:product-name",
-            "vtex.store-components:product-brand",
-            "product-rating-inline",
+            // "vtex.store-components:product-brand",
+            // "product-rating-inline",
             "product-price",
-            "product-quantity",
-            
+            // "product-quantity",
+            "sku-selector",
+            "add-to-cart-button#PDP",
+            "share#PDP",
             "product-description",
 
-            "add-to-cart-button",
+            
             //"flex-layout.row#buy-button",
-            "shipping-simulator",
+            // "shipping-simulator",
             "availability-subscriber"
             
-        ]
+            
+        ],
+        "props":{
+          "blockClass": "PRRO"
+        }
       },
-
-
+      "vtex.store-components:product-name":{
+        "props":{
+          "blockClass": "p_name"
+        }
+      },
+      "product-price":{
+        "props":{
+          "blockClass": "p_price"
+        }
+      },
+      "add-to-cart-button#PDP":{
+        "props":{
+          "blockClass": "p_button"
+        }
+      },
+      "share#PDP":{
+        "props":{
+          "blockClass": "p_share"
+        }
+      },
 
       "flex-layout.row#buy-button": {
         "props": {

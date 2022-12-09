@@ -1,0 +1,21 @@
+.productBrand--p_name{
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.currencyContainer--p_price{
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5F6A79;
+    font-family: "Lato";
+}
+.price_sellingPriceContainer--p_price{
+    border-bottom: 1px solid grey;
+}
+
+.flexColChild--PRRO :global(.vtex-store-components-3-x-shareSocialButton){
+    color: #5F6A79;
+    background-color: black;
+}

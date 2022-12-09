@@ -3,8 +3,8 @@
     "children": [
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",
-      
-      "flex-layout.row#product__tabs"
+      "flex-layout.row#product__tabs",
+      "flex-layout.row#product__related"
     ]
   },
   "flex-layout.row#product__tabs":{
@@ -14,19 +14,22 @@
     ]
   },
   "tab-layout#prodyct__tabs":{
+    "title": "Tabs container",
     "children":[
       "tab-list#products__tabs",
       "tab-content#product__tabs"
     ]
   },
   "tab-list#products__tabs":{
+    "title": "tabs titles",
     "children":[
-      "tab-list.item#tabs__list--reviews",
-      "tab-list.item#tabs__list--products",
-      "tab-list.item#tabs__list--questions"
+      "tab-list.item#tabs__list--reviews"
+      // "tab-list.item#tabs__list--products",
+      // "tab-list.item#tabs__list--questions"
     ]
   },
   "tab-list.item#tabs__list--reviews":{
+    "title": "tab reviews",
     "props":{
       "tabId": "reviews",
       "label": "Revisiones y calificaciones",
@@ -34,6 +37,7 @@
     }
   },
   "tab-list.item#tabs__list--products":{
+    "title": "tab product especification",
     "props":{
       "tabId": "products",
       "label": "Especificaciones de producto",
@@ -41,6 +45,7 @@
     }
   },
   "tab-list.item#tabs__list--questions":{
+    "title": "tab questions",
     "props":{
       "tabId": "questions",
       "label": "Preguntas  y respuestas",
@@ -48,6 +53,7 @@
     }
   },
   "tab-content#product__tabs":{
+    "title": "tabs contenido",
     "children":[
       "tab-content.item#tabs__list--reviews",
       "tab-content.item#tabs__list--products",
@@ -55,6 +61,7 @@
     ]
   },
   "tab-content.item#tabs__list--reviews":{
+    "title": "tab review content",
     "props":{
       "tabId": "reviews"
     },
@@ -63,6 +70,7 @@
     ]
   },
   "tab-content.item#tabs__list--products":{
+    "title": "tab products content",
     "props":{
       "tabId": "products"
     },
@@ -71,12 +79,34 @@
     ]
   },
   "tab-content.item#tabs__list--questions":{
+    "title": "tab questions content",
     "props":{
       "tabId":"questions"
     },
     "children":[
       "questions-and-answers"
     ]
+  },
+  "flex-layout.row#product__related":{
+    "children":[
+      "flex-layout.col#product__related"
+    ]
+  },
+  "flex-layout.col#product__related":{
+    "children":[
+      "rich-text#relatedItems",
+      "flex-layout.row#slider--products"
+    ],
+    "props":{
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#relatedItems":{
+    "props":{
+      "text": "#### PRODUCTOS RELACIONADOS",
+      "blockClass": "relatedItems"
+    }
   }
 
 }
