@@ -105,3 +105,12 @@ justify-content: center;
     color: #5F6A79;
     font-family: "Lato";
 }
+
+
+.container--minicart_header1{
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Nunito";
+    letter-spacing: 2px;
+}
+

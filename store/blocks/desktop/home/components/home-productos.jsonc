@@ -31,7 +31,10 @@
         "children":[
       
           "flex-layout.col#result-search"
-        ]
+        ],
+        "props":{
+          "blockclass": "galleryContainer"
+        }
         
       },
   
@@ -39,21 +42,35 @@
         "title": "search result col",
         "children":[
           "search-content#result-search"
-        ]
+        ],
+        "props":{
+          "blockclass": "galleryContainer"
+        }
         
       },
       "search-content#result-search":{
         "title": "search content products",
         "blocks":[
-          "gallery",
+          "gallery#home--products",
           "not-found"
-        ]
+        ],        
+        "props":{
+          "blockclass": "galleryContainer"
+        }
       },
-      "gallery":{
+      "gallery#home--products":{
         "title": "products",
+
         "blocks":[
           "product-summary.shelf#home--products"
-        ]
+        ],
+        "props":{
+          "blockclass": "galleryContainer"
+        }
+
+          
+      
+
       }
   
 }

@@ -11,11 +11,9 @@
     z-index: 3;
     
 } */
-/* .imageWrapper--ACAAAAAAAAA:hover{
-    filter: grayscale(80%);
-    background-color: #ffffff;
-    z-index: 3;
-} */
+.imageWrapper--ACAAAAAAAAA{
+    margin: 0;
+}
 .nameContainer--pVitrinaName{
    
     /* transform: skewY(-5deg);
@@ -24,10 +22,78 @@
 .productNameContainer--pVitrinaName{
    
     /* transform: skewY(5deg); */
+    color: rgba(95,106,121,0.8);
+
 }
 
 .element--containerCard{
     padding: 0;
     background-color: #ffffff;
+    
+}
+.brandName--pVitrinaName{
+    color: rgba(95,106,121,0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Nunito";
+    letter-spacing: 2px;
+    font-size: 10px;
+   
+}
+.sellingPriceValue--pVitrinaPrice :global(.vtex-product-price-1-x-currencyContainer){
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Nunito";
+}
+.container--containerCard{
+    margin: 0;    
+}
+.clearLink--containerCard{
+    width: 20rem;
 }
 
+
+/* plp */
+
+.image--image--plp{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    background-color: #ffffff;
+    /* transform: skewY(5deg); */
+}
+
+
+.productNameContainer--pName--plp{
+    color: rgba(95,106,121,0.8);
+
+}
+
+.element--PLP{
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+.brandName--pName--plp{
+    color: rgba(95,106,121,0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Nunito";
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.sellingPriceValue--pPrice--plp :global(.vtex-product-price-1-x-currencyContainer){
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Nunito";
+}
+
+
+
+
+
+
+.container--PLP{
+    margin-right: 0;
+    margin-left: 0;
+}
