@@ -21,7 +21,8 @@
         "props":{
           "url" : "assets/img/home.png",
           "width": 85,
-          "href":"/" 
+          "href":"/"
+          
         }
       },
       "rich-text#lema":{

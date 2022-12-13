@@ -13,6 +13,7 @@
         "blocks":[
           
             "minicart-empty-state"
+          
         ],
         "children":[
             "flex-layout.row#minicart__header",
@@ -91,9 +92,26 @@
           "blockClass": "containerCheckout"
         }
       },
-      "minicart-checkout-button":{
-        "props":{
-          
+      
+      "minicart-summary#prueba":{
+        "blocks":[  
+          "checkout-summary.compact"
+        ]
+      },
+      "checkout-summary.compact": {
+        "children":[
+          "summary-totalizers"
+        ],
+        "props": {
+          "totalizersToShow": ["Items"]
+        }
+      },
+      "summary-totalizers": {
+    
+        "props": {
+          "showTotal": true,
+          "showDeliveryTotal": true,
+          "blockClass": "totales"
         }
       },
       //seccion de productos

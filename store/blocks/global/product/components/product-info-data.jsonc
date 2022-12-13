@@ -24,6 +24,7 @@
       "flex-layout.col#product__info--data":{
         "title": "data del producto",
         "children":[
+            "flex-layout.row#product__breadcrumb",
             "vtex.store-components:product-name",
             // "vtex.store-components:product-brand",
             // "product-rating-inline",
@@ -31,6 +32,9 @@
             // "product-quantity",
             "sku-selector",
             "add-to-cart-button#PDP",
+            "flex-layout.col#devoluciones",
+            "flex-layout.col#entregas",
+            "flex-layout.col#tallas",
             "share#PDP",
             "product-description",
 
@@ -42,7 +46,8 @@
             
         ],
         "props":{
-          "blockClass": "PRRO"
+          "blockClass": "PRRO",
+          "rowGap": 5
         }
       },
       "vtex.store-components:product-name":{
@@ -58,6 +63,63 @@
       "add-to-cart-button#PDP":{
         "props":{
           "blockClass": "p_button"
+        }
+      },
+      "flex-layout.col#devoluciones":{
+        "title":"devoluciones container",
+        "children":[
+          "rich-text#devoluciones--title",
+          "rich-text#devoluciones--info"
+        ]
+      },
+      "rich-text#devoluciones--title":{
+        "title": "devoluciones title",
+        "props":{
+          "text": "#### Sin Cambios ni Devoluciones"
+        }
+      },
+      "rich-text#devoluciones--info":{
+        "title": "devoluciones info",
+        "props":{
+          "text": "Todos nuestros tenis son para mujeres y se elaboran por pedido y no tienen ningún tipo de cambio ni devoluciones."
+        }
+      },
+      "flex-layout.col#entregas":{
+        "title":"entregas container",
+        "children":[
+          "rich-text#entregas--title",
+          "rich-text#entregas--info"
+        ]
+      },
+      "rich-text#entregas--title":{
+        "title": "entregas title",
+        "props":{
+          "text": "#### Entregas"
+        }
+      },
+      "rich-text#entregas--info":{
+        "title": "entregas info",
+        "props":{
+          "text": "Los tenis comprados en OFERTA toman un poco mas de tiempo, pregunta por la fecha de entrega."
+        }
+      },
+      "flex-layout.col#tallas":{
+        "title":"tallas container",
+        "children":[
+          "rich-text#tallas--title",
+          "rich-text#tallas--info"
+        ]
+      },
+      "rich-text#tallas--title":{
+        "title": "tallas title",
+        "props":{
+          "text": "#### Tallas Nacionales"
+        }
+      },
+      "rich-text#tallas--info":{
+        "title": "tallas info",
+        "props":{
+          "text": "Los tenis son elaborados en Tallas nacionales NORMALES, si tienes dudas escríbenos por Whatsapp."
         }
       },
       "share#PDP":{

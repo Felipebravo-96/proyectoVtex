@@ -31,7 +31,7 @@
     background: rgba(150,150,150,0.06);
     margin-bottom: 10px;
     margin-top: 10px;
-    height: 5rem;
+    height: max-content;
 }
 
 .flexColChild--containerCheckout :global(.vtex-checkout-summary-0-x-summaryItemContainer){
@@ -47,4 +47,7 @@
 
   .flexColChild--containerCheckout :global(.vtex-checkout-summary-0-x-price){
     flex-basis: fit-content;
+  }
+  .flexColChild--containerCheckout :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+    display: none;
   }

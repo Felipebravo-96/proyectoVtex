@@ -47,13 +47,32 @@
     
 }
 .flexRow--BOTONESSSSSSSSSSS{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: proximity;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; */
+}
+
+.flexRowContent--BOTONESSSSSSSSSSS :global(.vtex-store-link-0-x-link){
+    background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
+    color: #fff;
+    fill: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-bottom: 4px solid #01e7c0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+}
+.flexRowContent--BOTONESSSSSSSSSSS :global(.vtex-store-link-0-x-link):hover{
+    border-bottom: 4px solid rgba(29,254,216,0.9);
+
 }
 
 .flexRowContent--title_icon{
@@ -93,6 +112,30 @@
     color: #5F6A79;
     background-color: black;
 }
+
+.flexColChild--PRRO :global(.vtex-rich-text-0-x-heading){
+    color: #5F6A79;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.flexColChild--PRRO :global(.vtex-rich-text-0-x-paragraph){
+    color: #5F6A79;
+    font-family: "Lato";
+    font-size: 14px;
+
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 1px;
+    padding: 15px;
+    border: 1px solid rgba(95,106,121,0.08);
+    background-color: #fefefe;
+    border-radius: 4px;
+}
+
+
 
 /* PDP */
 .flexCol--pVitrinaImage{

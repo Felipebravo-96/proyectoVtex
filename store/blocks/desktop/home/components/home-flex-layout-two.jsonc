@@ -52,7 +52,7 @@
   "link#home__link--button1":{
     "title": "Button tenis",
     "props":{
-      "href": "/",
+      "href": "/madera?map=ft&_q=madera",
       "label": "TENIS",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -62,7 +62,7 @@
   "link#home__link--button2":{
     "title": "Button animados",
     "props":{
-      "href": "/",
+      "href": "/cemento?map=ft&_q=cemento",
       "label": "ANIMADOS",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -71,7 +71,7 @@
   "link#home__link--button3":{
     "title": "Button estampados",
     "props":{
-      "href": "/",
+      "href": "/sol?map=ft&_q=sol",
       "label": "ESTAMPADOS",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -80,7 +80,7 @@
   "link#home__link--button4":{
     "title": "Button slip on",
     "props":{
-      "href": "/",
+      "href": "/zapatos?map=ft&_q=zapatos",
       "label": "SLIP ON",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -89,7 +89,7 @@
   "link#home__link--button5":{
     "title": "Button classics",
     "props":{
-      "href": "/",
+      "href": "/queso?map=ft&_q=queso",
       "label": "CLASSICS",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -98,7 +98,7 @@
   "link#home__link--button6":{
     "title": "Button entrega",
     "props":{
-      "href": "/",
+      "href": "/varilla?map=ft&_q=varilla",
       "label": "ENTREGA INMEDIATA",
       "displayMode": "button",
       "blockClass":"buttons-design"
@@ -107,7 +107,7 @@
   "link#home__link--button7":{
     "title": "Button cookies",
     "props":{
-      "href": "/",
+      "href": "/ladrillo?map=ft&_q=ladrillo",
       "label": "COOKIES AND CAKES",
       "displayMode": "button",
       "blockClass":"buttons-design"
