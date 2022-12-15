@@ -3,7 +3,8 @@
         "children": [
             "whatsapp-button",
             "slider-layout#home__slider--children",
-            //"list-context.bullet-group",
+            "flex-layout.row#bullets",
+           
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
             "search-result-layout.customQuery#probando",
@@ -23,15 +24,101 @@
             "message": "Rooster Al Horno"
         }
     },
+    "flex-layout.row#bullets":{
+        "children":[
+            "list-context.bullet-group"
+        ]
+    },
     "list-context.bullet-group":{
+        "title":  "Mi contexto de lista", 
+        "children":[
+            "slider-layout#bullet-group"
+        ],
         "props":{
-            "bullets": {
-                "image": "miimagen.png",
-                "titleBullet": "Computadores",
-                "link":{
-                    "url": "/"
+            "bullets": 
+                [
+                {           
+                    "image": "assets/img/teni1.jpg",
+                    "titleBullet": "Computadores",
+                    "link":{
+                        "url": "/"
+                        }
+                },
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
+                },                
+                {           
+                    "image": "assets/img/teni2.jpg",
+                    "titleBullet": "Ropa",
+                    "link":{
+                        "url": "/"
+                        }
                 }
-            }
+            ]
+            
+        }
+    },
+    "slider-layout#bullet-group":{
+        "props":{
+            "itemsPerPage":{
+                "desktop": 5,
+                "tablet": 5,
+                "mobile": 5
+            },
+            "infinite": true
         }
     }
 }
