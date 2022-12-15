@@ -19,11 +19,42 @@
         "children":[
             "breadcrumb.search",
             "filter-navigator.v3"
+            
+            
         ],
         "props":{
             "width": "25%"
         }
     },
+
+    "filter-navigator.v3":{
+        "props":{
+            "layout":"responsive"
+        }
+    },
+    "drawer#filter":{
+        "children":[
+            "flex-layout.row#filter"
+            
+        ],
+        "props":{
+        
+            "blockClass": "containerFilterDrawer"
+            
+        }
+    },
+    "flex-layout.row#filter":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "horizontalAlign":"center",
+            "verticalAlign":"middle",
+            "blockClass": "containerFilter",
+            "fullWidth": true
+        }
+    },
+
     "flex-layout.col#desktop--content":{
         "children":[
             
@@ -50,9 +81,11 @@
                     "component": "GeneralGrid",
                     "itemsPerRow": 3
                     
+                    
                 }
             ],
-            "GeneralGrid": "product-summary.shelf#desktop"
+            "GeneralGrid": "product-summary.shelf#desktop",
+            "blockClass": "HPPP"
         }
 
     }

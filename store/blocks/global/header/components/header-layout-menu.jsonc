@@ -33,7 +33,7 @@
             "id": "department__one",
             "type": "custom",
             "itemProps":{
-                "type": "external",
+                "type": "internal",
                 "href": "/",
                 "noFollow": true,
                 "tagTitle": "Inicio",
@@ -47,8 +47,8 @@
             "id": "department__two",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": true,
                 "tagTitle": "nueva colección",
                 "text": "NUEVA COLECCIÓN"
@@ -61,8 +61,8 @@
             "id": "department__three",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p",
                 "noFollow": true,
                 "tagTitle": "animados",
                 "text": "ANIMADOS"
@@ -75,8 +75,8 @@
             "id": "department__four",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/sol/p",
                 "noFollow": true,
                 "tagTitle": "tenis",
                 "text": "TENIS"
@@ -89,8 +89,8 @@
             "id": "department__five",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/zapatos-vans-url/p",
                 "noFollow": true,
                 "tagTitle": "clásicos",
                 "text": "CLÁSICOS"
@@ -103,8 +103,8 @@
             "id": "department__six",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/puerta?map=ft&_q=puerta",
                 "noFollow": true,
                 "tagTitle": "slip on",
                 "text": "SLIP ON"
@@ -117,8 +117,8 @@
             "id": "department__seven",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/ladrillos?map=ft&_q=ladrillos",
                 "noFollow": true,
                 "tagTitle": "como comprar",
                 "text": "CÓMO COMPRAR"
@@ -131,8 +131,8 @@
             "id": "department__eight",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/cemento%20sol?map=ft&_q=cemento%20sol",
                 "noFollow": true,
                 "tagTitle": "contacto",
                 "text": "CONTACTO"
@@ -147,8 +147,8 @@
             "id": "department__nine",
             "type": "custom",
             "itemProps":{
-                "type": "external",
-                "href": "/",
+                "type": "internal",
+                "href": "/cemento%20sol?map=ft&_q=cemento%20sol",
                 "noFollow": true,
                 "tagTitle": "entregas",
                 "text": "ENTREGA INMEDIATA"

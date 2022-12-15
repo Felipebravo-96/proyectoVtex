@@ -5,19 +5,7 @@
     margin-top: 14px;
     
 }
-.link--buttons-design{
-    background-color:  rgba(29,254,216,0.9);
-    /* background-color: rgba(29,254,216,0.8) ; */
-    
-    border-bottom: 4px solid #01e7c0;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    letter-spacing: 2px;
-    font-size: 12px;
-    
-}
+
 
 .label--text__footer{
     color: #5F6A79;

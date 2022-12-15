@@ -21,8 +21,8 @@
         "props": {
           "itemsPerPage": {
             "desktop": 4,
-            "tablet": 4,
-            "mobile": 4
+            "tablet": 3,
+            "mobile": 2
           },
           "infinite": true,
           "blockClass": "products__slider",

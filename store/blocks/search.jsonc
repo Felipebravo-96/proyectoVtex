@@ -48,7 +48,8 @@
 
   "search-result-layout":{
     "blocks":[  
-      "search-result-layout.desktop#department-este"
+      "search-result-layout.desktop#department-este",
+      "search-result-layout.mobile#department"
     ]
   },
 
@@ -58,33 +59,51 @@
   //shelf de paginas individuales
   "product-summary.shelf#desktop":{
     "children":[
-      "add-to-list-btn",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-image",
-      
-      "product-list-price",  //estos 2 no me funcionan 
-      "product-selling-price",
-      //"product-summary-price"
+      "flex-layout.col#image--plp", 
+      "flex-layout.col#info--plp"
+    ],
+    "props":{
+      "blockClass":"PLP"
+    }
+  },
+  "flex-layout.col#image--plp":{
+    "children":[
+      "product-summary-image#home--products--plp"
+    ],
+    "props":{
+      "blockClass":"imainaNamegeContainer--plp"
+    }
     
-      "product-summary-sku-selector",
-      "add-to-cart-button",
-      "modal-trigger#global__quick-view"
-    ]
   },
-  "product-summary-name":{
+  "flex-layout.col#info--plp":{
+    "children":[
+      "product-summary-name#home--products--plp",
+      "product-list-price",  
+      "product-selling-price#home--products--plp"
+    ],
     "props":{
-      "tag": "h1"
+      "blockClass":"info--plp"
     }
   },
-  "product-summary-sku-selector":{
+  "product-summary-image#home--products--plp":{
     "props":{
-      
-      "hideImposibleCombinations" : false,
-      "displayMode": "select"
+      "blockClass":"image--plp"
+    }
+  },
+
+  "product-summary-name#home--products--plp":{
+    "props":{
+      "tag": "h1",
+      "blockClass":"pName--plp"
+    }
+  },
+  "product-selling-price#home--products--plp":{
+    "props":{
      
+      "blockClass":"pPrice--plp"
     }
   },
+  //quieck view modal
   "modal-trigger#global__quick-view":{
     "children":[
       "rich-text#global__quick-view--trigger",
@@ -130,17 +149,31 @@
 
   "product-summary.shelf#home--products":{
     "children":[
-      
-   
-      "product-summary-image#home--products",
-      "product-summary-name#home--products",
-      "product-list-price",  //estos 2 no me funcionan 
-      "product-selling-price",
-      //"product-summary-price"
+      "flex-layout.col#image", 
+      "flex-layout.col#info" 
+    ],
+    "props":{
+      "blockClass":"containerCard"
+    }
+  },
+  "flex-layout.col#image":{
+    "children":[
+      "product-summary-image#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaImage"
+    }
     
-      
-      "modal-trigger#global__quick-view#home--products"
-    ]
+  },
+  "flex-layout.col#info":{
+    "children":[
+      "product-summary-name#home--products",
+      "product-list-price",  
+      "product-selling-price#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaInfo"
+    }
   },
   "product-summary-image#home--products":{
     "props":{
@@ -150,7 +183,14 @@
 
   "product-summary-name#home--products":{
     "props":{
-      "tag": "h1"
+      "tag": "h1",
+      "blockClass":"pVitrinaName"
+    }
+  },
+  "product-selling-price#home--products":{
+    "props":{
+     
+      "blockClass":"pVitrinaPrice"
     }
   },
   "product-summary-sku-selector#home--products":{

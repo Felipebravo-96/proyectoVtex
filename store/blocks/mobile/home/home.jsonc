@@ -2,6 +2,7 @@
     "responsive-layout.mobile#home":{
         "children": [
             "slider-layout#home__slider--children",
+            "list-context.bullet-group",
             "slider-layout#mobile__slider--two",
             "flex-layout.row#home__section--baseButtons",
             "search-result-layout.customQuery#probando",

@@ -11,7 +11,8 @@
           "minicart.v2"
         ],
         "props":{
-          "blockClass": "header__menu"
+          "blockClass": "header__menu",
+            "sticky": true
         }
     
       },
@@ -19,7 +20,9 @@
         "title": "Logo header",
         "props":{
           "url" : "assets/img/home.png",
-          "width": 85 
+          "width": 85,
+          "href":"/"
+          
         }
       },
       "rich-text#lema":{
