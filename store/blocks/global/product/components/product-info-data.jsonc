@@ -42,8 +42,6 @@
             //"flex-layout.row#buy-button",
             // "shipping-simulator",
             "availability-subscriber"
-            
-            
         ],
         "props":{
           "blockClass": "PRRO",
@@ -140,6 +138,27 @@
           
           "shouldOpenMinicart": true,
           "large": false
+        }
+      },
+      "modal-trigger#add-to-cart-info":{
+        "children":[
+          "modal-layout#add-to-cart-info"
+          
+        ],
+        "props":{
+          "customPixelEventName": "addToCart"
+        }
+      },
+      "modal-layout#add-to-cart-info":{
+        "children":[
+          "modal-header#add-to-cart-info",
+          "add-to-cart-info"
+        ]
+      },
+      "modal-header#add-to-cart-info":{
+        "props":{
+          "showCloseButton": true,
+          "iconCloseSize": 24
         }
       }
 
