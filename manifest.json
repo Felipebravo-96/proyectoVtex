@@ -59,7 +59,8 @@
     "itgloberspartnercl.whatsapp-button": "0.x",
     "vtex.store-form": "0.x",
     "vtex.store-newsletter": "1.x",
-    "itgloberspartnercl.bullets-diagramation": "0.x"
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
