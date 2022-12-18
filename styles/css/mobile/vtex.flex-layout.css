@@ -1,0 +1,32 @@
+.flexCol--mobile__menu--inicio{
+    justify-content: center;
+    align-items: center;
+}
+.flexCol--mobile__menu--productos{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flexRow--home__mobile--baseButtons{
+    overflow-x: auto ;
+    margin-bottom: 2rem ;
+    overscroll-behavior-x: contain ;
+    padding-bottom: 1px ;
+    flex-wrap: nowrap ;
+    display: flex ;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.flexRowContent--mobile__button--container{
+    overflow-x: auto ;
+    margin-bottom: 2rem ;
+    overscroll-behavior-x: contain ;
+    padding-bottom: 1px ;
+    flex-wrap: nowrap ;
+    display: flex ;
+    gap: 20px;
+    margin-top: 10px;
+}

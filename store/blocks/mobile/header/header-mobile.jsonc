@@ -4,15 +4,21 @@
         "children":[
             "header-row#header__mobile",
             "header-row#mobile__header--menu",
-            "logo#header__mobile--logo"
+            "header-row#header__mobile--logo"
+            
         ]
 
       },
 
-      "header-force-center#mobile__logo":{
+      "header-row#header__mobile--logo":{
         "children":[
-            "logo#header__top--logo"
-        ]
+          "logo#header__mobile--logo"
+        ],
+        "props":{
+          "blockClass":"header__mobile--logo",
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+        }
       },
       "logo#header__mobile--logo":{
         "title": "Logo",

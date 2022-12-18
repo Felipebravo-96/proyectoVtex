@@ -23,7 +23,7 @@
       "search-result-layout.mobile":{
         "title": "search result mobile",
         "children":[
-          "flex-layout.row#results"
+          "flex-layout.row#mobile__results"
         ]
       },
       "flex-layout.row#results":{

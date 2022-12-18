@@ -22,3 +22,15 @@
     border-bottom: 4px solid rgba(29,254,216,0.9);
 
 }
+
+.minicartCheckoutButton--global__minicart--CheckoutButton :global(.vtex-button__label){
+    visibility: hidden;
+    font-size: 0;
+}
+.minicartCheckoutButton--global__minicart--CheckoutButton :global(.vtex-button__label)::before{
+    content: "INICIAR COMPRA";
+    visibility: initial;
+    font-size: 16px;
+    color:#fff;
+    font-family: inherit;
+}

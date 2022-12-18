@@ -18,3 +18,7 @@
 .paginationDotsContainer--mobile__slider--two{
     transform: translateY(10px);
 }
+
+.paginationDotsContainer--products__slider{
+    transform: translateY(15px);
+}

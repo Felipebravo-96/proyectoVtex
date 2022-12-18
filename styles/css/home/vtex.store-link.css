@@ -1,0 +1,10 @@
+.label--like_button{
+    padding: 0;
+}
+.link--facebook_link{
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    background-color: #fff;
+}

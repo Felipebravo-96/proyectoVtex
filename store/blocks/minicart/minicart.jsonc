@@ -92,6 +92,12 @@
           "blockClass": "containerCheckout"
         }
       },
+
+      "minicart-checkout-button":{
+        "props":{
+          "blockClass": "global__minicart--CheckoutButton"
+        }
+      },
       
       "minicart-summary#prueba":{
         "blocks":[  

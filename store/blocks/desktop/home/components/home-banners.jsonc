@@ -44,7 +44,8 @@
         "props":{
             "href": "/",
             "label": "CONTÁCTANOS",
-            "displayMode": "button"
+            "displayMode": "button",
+            "blockClass": "contactUsButton"
         }
     },
 
@@ -58,7 +59,8 @@
             "image#banner__home--three"
         ],
         "props":{
-            "horizontalAlign":"center"
+            "horizontalAlign":"center",
+            "blockClass": "promotionalBaners"
         }
     },
     "responsive-layout.desktop#home__banner":{

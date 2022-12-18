@@ -1,0 +1,67 @@
+{
+
+    "flex-layout.row#home__contactUs--mobile":{
+        "title": "ContactUs Section",
+        "children":[
+            "flex-layout.col#home__contactUs--mobile"
+        ],
+        "props":{
+            "blockClass": "banner__contact"
+
+          }
+        
+    },
+    "flex-layout.col#home__contactUs--mobile":{
+        "title": "ContactUs Section--col",
+        "children":[
+            "image#banner__home--one--mobile",
+            "rich-text#home__contactUs--mobile",
+            "link#home__contactUs--mobile"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "blockClass": "banner__contact"
+
+          }
+    },
+
+    "image#banner__home--one--mobile":{
+        "title": "Banner 1",
+        "props":{
+            "src":"assets/img/banner-home-one.webp",
+            "width": "80rem"
+        }
+    },
+    "rich-text#home__contactUs--mobile":{
+        "title": "ContactUs text",
+        "props":{
+            "text": "# DISTRIBUIDORES ROOSTER AL HORNO",
+            "blockClass": "contactUs--mobile"
+        }
+
+    },
+    "link#home__contactUs--mobile":{
+        "title": "ContactUs button",
+        "props":{
+            "href": "/",
+            "label": "CONTÁCTANOS",
+            "displayMode": "button",
+            "blockClass": "contactUsButton"
+        }
+    },
+
+
+
+    "image#banner__home--two":{
+        "title": "Banner 2",
+        "props":{
+            "src": "assets/img/banner-two.webp"
+        }
+    },
+    "image#banner__home--three":{
+        "title": "Banner 3",
+        "props":{
+            "src": "assets/img/banner-three.webp"
+        }
+    }
+}
