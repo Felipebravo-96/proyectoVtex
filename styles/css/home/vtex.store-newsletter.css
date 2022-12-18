@@ -1,0 +1,76 @@
+.newsletterForm--global__newsletter{
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.newsletterForm--global__newsletter :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    align-self: center;
+}
+.newsletterForm--global__newsletter :global(.vtex-button){
+
+    background: linear-gradient(to bottom, rgba(39,62,91,0.7) 0%, rgba(39,62,91,0.9) 100%);
+    
+    color: #fff;
+    fill: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 4px solid #182637;
+}
+
+.newsletterForm--global__newsletter :global(.vtex-button):hover{
+
+    background: linear-gradient(to bottom, rgba(39,62,91,0.8) 0%, #273E5B 100%);
+    color: #fff;
+    border: none;
+    border-bottom: 0;
+}
+
+.newsletterForm--global__newsletter :global(.vtex-input-prefix__group){
+    height: 42px;
+    color: rgba(95,106,121,0.8);
+    background-color: #fff;
+    border: 1px solid #7D7D7D;
+    width: 30rem;
+}
+
+.newsletterForm--mobile__newsletter :global(.vtex-input-prefix__group){
+    height: 42px;
+    color: rgba(95,106,121,0.8);
+    background-color: #fff;
+    border: 1px solid #7D7D7D;
+    width: 20rem;
+}
+.newsletterForm--mobile__newsletter :global(.vtex-store-newsletter-1-x-nameInputContainer){
+    align-self: center;
+}
+.newsletterForm--mobile__newsletter :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    align-self: center;
+}
+
+.newsletterForm--mobile__newsletter{
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.newsletterForm--mobile__newsletter :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    align-self: center;
+}
+.newsletterForm--mobile__newsletter :global(.vtex-button){
+
+    background: linear-gradient(to bottom, rgba(39,62,91,0.7) 0%, rgba(39,62,91,0.9) 100%);
+    
+    color: #fff;
+    fill: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 4px solid #182637;
+}
+
+.newsletterForm--mobile__newsletter :global(.vtex-button):hover{
+
+    background: linear-gradient(to bottom, rgba(39,62,91,0.8) 0%, #273E5B 100%);
+    color: #fff;
+    border: none;
+    border-bottom: 0;
+}
+

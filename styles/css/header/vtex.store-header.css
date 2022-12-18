@@ -6,4 +6,8 @@
     border-bottom: 1px solid gray;
 }
 
-
+.headerRowContainer--header__mobile--logo{
+    display: flex;
+    justify-content: center;
+  
+}

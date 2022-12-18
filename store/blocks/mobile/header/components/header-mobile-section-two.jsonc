@@ -15,15 +15,59 @@
       },
      
       "link#header__mobile--menu1":{
+        "children":[
+          "flex-layout.row#mobile__menu--inicio"
+        ],
         "props":{
-            "href": "/",
-            "label": "INICIO"
+            "href": "/"
+        }
+      },
+      "flex-layout.row#mobile__menu--inicio":{
+        "children":[
+          "flex-layout.col#mobile__menu--inicio"
+        ]
+      },
+      "flex-layout.col#mobile__menu--inicio":{
+        "children":[
+          "icon#prueba",
+          "rich-text#mobile__menu--inicio"
+        ],
+        "props":{
+          "blockClass":"mobile__menu--inicio"
+        }
+      },
+      "rich-text#mobile__menu--inicio":{
+        "props":{
+          "text": "INICIO",
+          "blockClass": "mobile__menu--inicio"
         }
       },
       "link#header__mobile--menu2":{
+        "children":[
+          "flex-layout.row#mobile__menu--productos"
+        ],
         "props":{
-            "href": "/",
-            "label": "PRODUCTOS"
+            "href": "/"
+        }
+      },
+      "flex-layout.row#mobile__menu--productos":{
+        "children":[
+          "flex-layout.col#mobile__menu--productos"
+        ]
+      },
+      "flex-layout.col#mobile__menu--productos":{
+        "children":[
+          "icon#prueba",
+          "rich-text#mobile__menu--productos"
+        ],
+        "props":{
+          "blockClass":"mobile__menu--productos"
+        }
+      },
+      "rich-text#mobile__menu--productos":{
+        "props":{
+          "text": "PRODUCTOS",
+          "blockClass": "mobile__menu--productos"
         }
       }
 

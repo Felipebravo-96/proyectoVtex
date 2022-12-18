@@ -46,14 +46,25 @@
     
     
 }
-.flexRow--BOTONESSSSSSSSSSS{
-    /* display: flex;
-    flex-direction: row;
-    
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: proximity;
-    margin-bottom: 2rem; */
+
+
+.flexRowContent--mobile__button--container :global(.vtex-store-link-0-x-link){
+    background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
+    color: #fff;
+    fill: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-bottom: 4px solid #01e7c0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+}
+.flexRowContent--mobile__button--container :global(.vtex-store-link-0-x-link):hover{
+    border-bottom: 4px solid rgba(29,254,216,0.9);
+
 }
 
 .flexRowContent--BOTONESSSSSSSSSSS :global(.vtex-store-link-0-x-link){
@@ -227,7 +238,92 @@
    }
 /* plp */
 
+.flexColChild--banner__contact :global(.vtex-store-link-0-x-link){
+    background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
+    color: #fff;
+    fill: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-bottom: 4px solid #01e7c0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+    margin-bottom: 20px;
+}
+.flexColChild--banner__contact :global(.vtex-store-link-0-x-link):hover{
+    border-bottom: 4px solid rgba(29,254,216,0.9);
+}
 
+
+.flexCol--container__facebook{
+    width: 300px;
+    clear: both;
+    margin: 0 auto 20px auto;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: #383838;
+}
+.flexColChild--container__facebook{
+    justify-content: center;
+    display: flex;
+}
+
+.flexColChild--container__facebook :global(.vtex-store-link-0-x-buttonLink--like_button){
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    fill: white;
+    background: #4267b2;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: none;
+    text-transform: none;
+    width: 4rem;
+    padding: 0;
+
+    position: relative;
+    
+}
+
+.flexColChild--container__facebook_link{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f6f7;
+}
+.flexColChild--container__like_button{
+    display: flex;
+    justify-content: center;
+} 
+
+.flexRowContent--all_products :global(.vtex-store-link-0-x-link--all_products){
+    background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
+    color: #fff;
+    fill: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-bottom: 4px solid #01e7c0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+}
+.flexRowContent--all_products :global(.vtex-store-link-0-x-link--all_products):hover{
+    border-bottom: 4px solid rgba(29,254,216,0.9);
+}
+
+.flexRowContent--promotionalBaners{
+    margin-top: 4rem;
+}
 
 
 

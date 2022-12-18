@@ -1,21 +1,21 @@
 {
-    "flex-layout.row#newsletter":{
+    "flex-layout.row#mobile--newsletter":{
         "title": "newsletter section",
         "children": [
-            "flex-layout.col#newsletter",
-            "flex-layout.col#facebook"
+            "flex-layout.col#mobile--newsletter",
+            "flex-layout.col#mobile--facebook"
         ],
         "props":{
             "verticalAlign": "middle",
             "horizontalAlign": "center"
         }   
     },
-    "flex-layout.col#newsletter":{
+    "flex-layout.col#mobile--newsletter":{
         "title": "newsletter",
         "children":[
-            "rich-text#titulo__newsletter",
-            "rich-text#text__newsletter",
-            "newsletter-form"
+            "rich-text#mobile--titulo__newsletter",
+            "rich-text#mobile--text__newsletter",
+            "newsletter-form#mobile"
            
            
         ],
@@ -26,34 +26,34 @@
         }
     },
     //form
-    "newsletter-form": {
+    "newsletter-form#mobile": {
         "title": "Newsletter Form",
         "children":[
-            "newsletter-input-name",
-            "newsletter-input-email",
-            "newsletter-submit"
+            "newsletter-input-name#mobile",
+            "newsletter-input-email#mobile",
+            "newsletter-submit#mobile"
         ],
         "props":{
-            "blockClass":"global__newsletter"
+            "blockClass":"mobile__newsletter"
             
         }
     
     },
-    "newsletter-input-name":{
+    "newsletter-input-name#mobile":{
         "title": "Name Form",
         "props":{
             "placeholderText": "Nombre",
             "errorMessage": "Introduce tu nombre"
         }
     },
-    "newsletter-input-email":{
+    "newsletter-input-email#mobile":{
         "title": "Email Form",
         "props":{
             "placeholderText": "Tu E-mail",
             "errorMessage": "Introduce una  direccion E-mail correcta"
         }
     },
-    "newsletter-submit":{
+    "newsletter-submit#mobile":{
         "props":{
             "submitButtonLabel": "INSCRIBIRSE"
 
@@ -62,19 +62,19 @@
 
 
 
-    "rich-text#titulo__newsletter":{
+    "rich-text#mobile--titulo__newsletter":{
         "title": "newsletter title",
         "props": {
             "text": "NUESTRO NEWSLETTER"
         }
     },
-    "rich-text#text__newsletter":{
+    "rich-text#mobile--text__newsletter":{
         "title": "suscribe",
         "props": {
             "text": "¡Suscribete para recibir nuestras últimas novedades!"
         }
     },
-    "link#suscribe":{
+    "link#mobile--suscribe":{
         "title": "suscribe button",
         "props": {
             "label": "INSCRIBIRSE",
@@ -83,7 +83,7 @@
         }
     },
     //facebook
-    "flex-layout.col#facebook":{
+    "flex-layout.col#mobile--facebook":{
         "title": "facebook",
         "children":[
             "rich-text#titulo__facebook",
@@ -95,50 +95,50 @@
             "blockClass": "main__container--facebook"
         }
     },
-    "rich-text#titulo__facebook":{
+    "rich-text#mobile--titulo__facebook":{
         "title": "facebook title",
         "props": {
             "text": "Estamos en Facebook"
         }
     },
-    "flex-layout.col#facebook__mainSection":{
+    "flex-layout.col#mobile__facebook__mainSection":{
         "title": "facebook section",
         "children":[
-            "flex-layout.row#facebook__section--one",
-            "flex-layout.col#facebook__section--two",
-            "flex-layout.col#facebook__section--three"
+            "flex-layout.row#mobile__facebook__section--one",
+            "flex-layout.col#mobile__facebook__section--two",
+            "flex-layout.col#mobile__facebook__section--three"
 
         ],
         "props":{
             "blockClass": "container__facebook"
         }
     },
-    "flex-layout.row#facebook__section--one":{
+    "flex-layout.row#mobile__facebook__section--one":{
         "title": "facebook section 1",
         "children":[
-            "logo#facebook--logo",
-            "rich-text#text__facebook"
+            "logo#mobile__facebook--logo",
+            "rich-text#mobile__text__facebook"
         ],
         "props":{
             "colSizing": "equal",
             "colJustify": "around"
         }
     },
-    "logo#facebook--logo":{
+    "logo#mobile__facebook--logo":{
         "title": "Logo  facebook",
         "props":{
           "url" : "assets/img/home.png",
           "width": 65 
         }
       },
-      "rich-text#text__facebook":{
+      "rich-text#mobile__text__facebook":{
         "title": "text Rooster",
         "props": {
             "text": "Tenis Rooster al Horno | ZAPATOS 100% COLOMBIANOS",
             "blockClass": "text__facebook"
         }
       },
-      "flex-layout.col#facebook__section--two":{
+      "flex-layout.col#mobile__facebook__section--two":{
         "children":[
             "link#facebook__section--one"
         ],
@@ -146,15 +146,15 @@
             "blockClass":"container__like_button"
         }
       },
-      "flex-layout.col#facebook__section--three":{
+      "flex-layout.col#mobile__facebook__section--three":{
         "children":[
-            "link#facebook__section--two" 
+            "link#mobile__facebook__section--two" 
         ],
         "props":{
             "blockClass":"container__facebook_link"
         }
       },
-      "link#facebook__section--one":{
+      "link#mobile__facebook__section--one":{
         "title": "like button",
         "props": {
             "label": "Me Gusta",
@@ -163,7 +163,7 @@
             "blockClass": "like_button"
         }
       },
-      "link#facebook__section--two":{
+      "link#mobile__facebook__section--two":{
         "title": "facebook button",
         "props": {
             "label": "Visitá nuestra página",

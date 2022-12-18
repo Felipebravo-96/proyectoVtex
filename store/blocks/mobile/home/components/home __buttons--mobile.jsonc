@@ -1,0 +1,103 @@
+{    
+  "flex-layout.row#home__mobile--baseButtons":{
+  "title": "Buttons categories mobile",
+  "children": [
+    "flex-layout.row#section__buttonss" 
+  ],
+  "props":{
+    "blockClass":"home__mobile--baseButtons",
+    "colSizing": "auto",
+    "horizontalAlign": "center"
+  }
+},
+
+  "rich-text#section__buttons--title":{
+    "title": "tittle buttons",
+    "props":{
+      "text": "# CATEGORÍAS PRINCIPALES",
+      "blockClass": "Texto-Categorias"
+    }
+  },
+  "flex-layout.row#section__buttonss":{
+    "title": "Buttons",
+    "children":[
+      "link#home__link--button1",
+      "link#home__link--button2",
+      "link#home__link--button3",
+      "link#home__link--button4",
+      "link#home__link--button5",
+      "link#home__link--button6",
+      "link#home__link--button7"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "colGap": 4,
+      "blockClass":"mobile__button--container"
+    }
+  },
+
+  "link#home__link--button1":{
+    "title": "Button tenis",
+    "props":{
+      "href": "/madera?map=ft&_q=madera",
+      "label": "TENIS",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+      
+    }
+  },
+  "link#home__link--button2":{
+    "title": "Button animados",
+    "props":{
+      "href": "/cemento?map=ft&_q=cemento",
+      "label": "ANIMADOS",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  },
+  "link#home__link--button3":{
+    "title": "Button estampados",
+    "props":{
+      "href": "/sol?map=ft&_q=sol",
+      "label": "ESTAMPADOS",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  },
+  "link#home__link--button4":{
+    "title": "Button slip on",
+    "props":{
+      "href": "/zapatos?map=ft&_q=zapatos",
+      "label": "SLIP ON",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  },
+  "link#home__link--button5":{
+    "title": "Button classics",
+    "props":{
+      "href": "/queso?map=ft&_q=queso",
+      "label": "CLASSICS",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  },
+  "link#home__link--button6":{
+    "title": "Button entrega",
+    "props":{
+      "href": "/varilla?map=ft&_q=varilla",
+      "label": "ENTREGA INMEDIATA",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  },
+  "link#home__link--button7":{
+    "title": "Button cookies",
+    "props":{
+      "href": "/ladrillo?map=ft&_q=ladrillo",
+      "label": "COOKIES AND CAKES",
+      "displayMode": "button",
+      "blockClass":"mobile__buttons-design"
+    }
+  }
+}
