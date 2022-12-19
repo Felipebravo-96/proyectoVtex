@@ -4,7 +4,7 @@
             "slider-layout#home__slider--children",          
             "slider-layout#mobile__slider--two",           
             "flex-layout.row#home__mobile--baseButtons",
-            "search-result-layout.customQuery#probando",
+            "search-result-layout.customQuery#home--products",
             "flex-layout.row#home__products--button",
             "flex-layout.row#home__contactUs--mobile",
             "flex-layout.row#slider--products",

@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#footer__section--three":{
+        "title": "Footer section 3",
+        "children":[
+            "flex-layout.col#footer__section--copyright",
+            "flex-layout.col#footer__section--createdBy"
+        ],
+        "props":{
+          "blockClass":"footerTwo"
+        }
+      },
+      "flex-layout.col#footer__section--copyright":{
+        "title": "Copyright section",
+        "children":[
+            "rich-text#copyright"
+        ]
+      },
+      "flex-layout.col#footer__section--createdBy":{
+        "title": "CreatedBy section",
+        "children":[
+            "link#createdBy"
+        ],
+        "props":{
+          "blockClass":"createdBy"
+        }
+      },
+      "rich-text#copyright":{
+        "title": "Copyright text",
+        "props":{
+            "text": "Copyright Tenis Rooster al Horno | ZAPATOS 100% COLOMBIANOS - 2022. Todos los derechos reservados.",
+            "blockClass":"copyRight"
+        }
+      },
+      "link#createdBy":{
+        "title": "CreatedBy text",
+        "props":{
+            "label": "creado con || tiendanube",
+            "href": "https://www.tiendanube.com/?utm_source=store&utm_medium=referral&utm_campaign=footerSlogan"
+        }
+      }
+}

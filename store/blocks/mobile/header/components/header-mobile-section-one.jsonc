@@ -46,23 +46,11 @@
             "login"
         ]
     },
-    "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "blockClass": "login"
-        }
-      },
-      //menu
+      //menu items
     "menu#mobile--menu":{
         "children":[
             "menu-item#create__account--mobile",
             "menu-item#login--mobile",
-
             "menu-item#department__two--mobile",
             "menu-item#department__three--mobile",
             "menu-item#department__four--mobile",
@@ -221,9 +209,6 @@
         }
     },
     //search bar
-    "autocomplete-result-list.v2": {
-        "blocks": ["product-summary"]
-      },
     "search-bar#mobile":{
         "blocks":["autocomplete-result-list.v2"],
         "props":{

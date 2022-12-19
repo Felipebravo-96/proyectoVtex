@@ -1,205 +1,75 @@
 {
-    "flex-layout.row#home__products":{
-        "title": "Products  base",
-        "children": [
-          "flex-layout.col#home__products"
+    "search-result-layout.customQuery#home--products":{
+      "title": "search result section",
+        "props":{
+          "querySchema":{
+            "skusFilter": "ALL",
+            "simulationBehavior": "skip"
+          }
+        },
+        "blocks": [
+          "search-result-layout.desktop",
+          "search-result-layout.mobile",
+          "search-not-found-layout"
+        ]
+      },
+      "search-result-layout.desktop":{
+        "title": "search result desktop",
+        "children":[
+          "flex-layout.row#results"
+        ]
+      },
+      "search-result-layout.mobile":{
+        "title": "search result mobile",
+        "children":[
+          "flex-layout.row#mobile__results"
+        ]
+      },
+      "flex-layout.row#results":{
+        "title": "search result row",
+        "children":[
+      
+          "flex-layout.col#result-search"
         ],
         "props":{
-          "blockClass":"mainDiv",
-          "colSizing": "auto",
-          "horizontalAlign": "center"
+          "blockclass": "galleryContainer"
+        }
+        
+      },
+  
+      "flex-layout.col#result-search":{
+        "title": "search result col",
+        "children":[
+          "search-content#result-search"
+        ],
+        "props":{
+          "blockclass": "galleryContainer"
+        }
+        
+      },
+      "search-content#result-search":{
+        "title": "search content products",
+        "blocks":[
+          "gallery#home--products",
+          "not-found"
+        ],        
+        "props":{
+          "blockclass": "galleryContainer"
+        }
+      },
+      "gallery#home--products":{
+        "title": "products",
+
+        "blocks":[
+          "product-summary.shelf#home--products"
+        ],
+        "props":{
+          "blockclass": "galleryContainer"
+        }
+
           
-        }
-      },
-      "flex-layout.col#home__products":{
-        "title": "Contenedor productos",
-        "children":[
-            "rich-text#destacados",
-            "flex-layout.row#home__product--sectionOne",
-            "flex-layout.row#home__product--sectionTwo"
-        ],
-        "props":{
-            "blockClass": "div columna",
-            "verticallAlign": "middle"
-        }
-      },
-      "rich-text#destacados":{
-        "title": "Texto Destacados",
-        "props":{
-            "text": "DESTACADOS"
-        }
-      },
-      "flex-layout.row#home__product--sectionOne":{
-        "title": "Contenedor productos 1",
-        "children":[
-            "flex-layout.col#sectionOne__one",
-            "flex-layout.col#sectionOne__two",
-            "flex-layout.col#sectionOne__three",
-            "flex-layout.col#sectionOne__four"
-        ],
-        "props":{
-            "horizontalAlign": "center"
-        }
-      },
-      "flex-layout.row#home__product--sectionTwo":{
-        "title": "Contenedor productos 2",
-        "children":[
-            "flex-layout.col#sectionTwo__one",
-            "flex-layout.col#sectionTwo__two",
-            "flex-layout.col#sectionTwo__three",
-            "flex-layout.col#sectionTwo__four"
-        ]
-      },
-      "flex-layout.col#sectionOne__one":{
-        "title": "Producto ejemplo 1",
-        "children":[
-            "image#sectionOne__one",
-            "rich-text#sectionOne__one"
-        ]
-      },
-      "flex-layout.col#sectionOne__two":{
-        "title": "Producto ejemplo 2",
-        "children":[
-            "image#sectionOne__two",
-            "rich-text#sectionOne__two"
-        ]
-    },
-      "flex-layout.col#sectionOne__three":{
-        "title": "Producto ejemplo 3",
-        "children":[
-            "image#sectionOne__three",
-            "rich-text#sectionOne__three"
-        ]
-    },
-      "flex-layout.col#sectionOne__four":{
-        "title": "Producto ejemplo 4",
-        "children":[
-            "image#sectionOne__four",
-            "rich-text#sectionOne__four"
-        ]
-    },
-      "flex-layout.col#sectionTwo__one":{
-        "title": "Producto ejemplo 5",
-        "children":[
-            "image#sectionTwo__one",
-            "rich-text#sectionTwo__one"
-        ]
-    },
-      "flex-layout.col#sectionTwo__two":{
-        "title": "Producto ejemplo 6",
-        "children":[
-            "image#sectionTwo__two",
-            "rich-text#ssectionTwo__two"
-        ]
-    },
-      "flex-layout.col#sectionTwo__three":{
-        "title": "Producto ejemplo 7",
-        "children":[
-            "image#sectionTwo__three",
-            "rich-text#sectionTwo__three"
-        ]
-    },
-      "flex-layout.col#sectionTwo__four":{
-        "title": "Producto ejemplo 8",
-        "children":[
-            "image#sectionTwo__four",
-            "rich-text#sectionTwo__four"
-        ]
-    },
-    "image#sectionOne__one":{
-        "title": "Producto 1", 
-        "props":{
-            "src": "assets/img/teni1.jpg"
-        }
-    },
-    "rich-text#sectionOne__one":{
-        "title": "Nombre Producto 1",
-        "props":{
-            "text": "OREO"
-        }
-    },
-    "image#sectionOne__two":{
-        "title": "Producto 2",
-        "props":{
-            "src": "assets/img/teni2.jpg"
-        }
-    },
-    "rich-text#sectionOne__two":{
-        "title": "Nombre Producto 2",
-        "props":{
-            "text": "MILK"
-        }
-    },
-    "image#sectionOne__three":{
-        "title": "Producto 3",
-        "props":{
-            "src": "assets/img/teni3.jpg"
-        }
-    },
-    "rich-text#sectionOne__three":{
-        "title": "Nombre Producto 1",
-        "props":{
-            "text": "TIE DYE"
-        }
-    },
-    "image#sectionOne__four":{
-        "title": "Producto 4",
-        "props":{
-            "src": "assets/img/teni4.jpg"
-        }
-    },
-    "rich-text#sectionOne__four":{
-        "title": "Nombre Producto 4",
-        "props":{
-            "text": "BARBIE"
-        }
-    },
-    "image#sectionTwo__one":{
-        "title": "Producto 5",
-        "props":{
-            "src": "assets/img/teni5.jpg"
-        }
-    },
-    "rich-text#sectionTwo__one":{
-        "title": "Nombre Producto 5",
-        "props":{
-            "text": "MILKY WAY"
-        }
-    },
-    "image#sectionTwo__two":{
-        "title": "Producto 6",
-        "props":{
-            "src": "assets/img/teni6.jpg"
-        }
-    },
-    "rich-text#ssectionTwo__two":{
-        "title": "Nombre Producto 6",
-        "props":{
-            "text": "MARACUYA"
-        }
-    },
-    "image#sectionTwo__three":{
-        "title": "Producto 7",
-        "props":{
-            "src": "assets/img/teni7.jpg"
-        }
-    },
-    "rich-text#sectionTwo__three":{
-        "title": "Nombre Producto 7",
-        "props":{
-            "text": "MENTA"
-        }
-    },
-    "image#sectionTwo__four":{
-        "title": "Producto 8",
-        "props":{
-            "src": "assets/img/teni8.jpg"
-        }
-    },
-    "rich-text#sectionTwo__four":{
-        "title": "Nombre Producto 8",
-        "props":{
-            "text": "COOKIE MONSTER"
-        }
-    }
+      
+
+      }
+  
 }

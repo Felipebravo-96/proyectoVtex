@@ -1,0 +1,98 @@
+{
+      //productos del home
+
+  "product-summary.shelf#home--products":{
+    "children":[
+      "flex-layout.col#image", 
+      "flex-layout.col#info" 
+    ],
+    "props":{
+      "blockClass":"containerCard"
+    }
+  },
+  "flex-layout.col#image":{
+    "children":[
+      "product-summary-image#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaImage"
+    }
+    
+  },
+  "flex-layout.col#info":{
+    "children":[
+      "product-summary-name#home--products",
+      "product-list-price",  
+      "product-selling-price#home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaInfo"
+    }
+  },
+  "product-summary-image#home--products":{
+    "props":{
+      "blockClass":"image__home--products"
+    }
+  },
+
+  "product-summary-name#home--products":{
+    "props":{
+      "tag": "h1",
+      "blockClass":"pVitrinaName"
+    }
+  },
+  "product-selling-price#home--products":{
+    "props":{
+     
+      "blockClass":"pVitrinaPrice"
+    }
+  },
+  "product-summary-sku-selector#home--products":{
+    "props":{
+      
+      "hideImposibleCombinations" : false,
+      "displayMode": "select"
+     
+    }
+  },
+  "modal-trigger#global__quick-view#home--products":{
+    "children":[
+      "rich-text#home--products--view--trigger",
+      "modal-layout#home--products--view--modal"
+    ]
+  },
+  "rich-text#home--products--view--trigger":{
+    "props":{
+      "text":"vista  rapida",
+      "blockClass": "quick-view__rigger"
+    }
+  },
+  "modal-layout#home--products--view--modal":{
+    "children":[
+      "flex-layout.row#home--products--view__modal"
+    ]
+  },
+  "flex-layout.row#home--products--view__modal":{
+    "children":[
+      "flex-layout.col#quick-view__home--products--image",
+      "flex-layout.col#quick-view__home--products--info"
+    ]
+  },
+  "flex-layout.col#quick-view__home--products--image":{
+    "children":[
+      "product-images"
+    ]
+  },
+  "flex-layout.col#quick-view__home--products--info":{
+    "children":[
+      "add-to-list-btn",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-price",
+      "product-description",
+      "share",
+      "product-quantity",
+      "add-to-cart-button"
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "flex-layout.row#footer__mobile--two":{
+    "children":[
+        "flex-layout.col#footer__mobile--navegation",
+        "flex-layout.col#footer__mobile--payment",
+        "flex-layout.col#footer__mobile--contact",
+        "flex-layout.col#footer__mobile--legal"
+
+    ],
+    "props":{
+      "blockClass": "footerOne"
+    }
+  },
+  //navigation
+  "flex-layout.col#footer__mobile--navegation":{
+    "children":[
+        "rich-text#navegation--mobile",
+        "menu#navegation--mobile"
+    ],
+    "props":{
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#navegation--mobile":{
+    "props":{
+        "text": "# NAVEGACIÓN",
+        "blockClass": "titles_footer"
+    }
+  },
+  "menu#navegation--mobile":{
+    "children":[
+        "menu-item#whatsapp--mobile",
+        "menu-item#howToBuy--mobile",
+        "menu-item#us--mobile",
+        "menu-item#blog--mobile",
+        "menu-item#policies--mobile",
+        "menu-item#findUs--mobile"
+    ],
+    "props":{
+        "orientation" : "vertical"
+      }
+  },
+  "menu-item#whatsapp--mobile":{
+    "props":{
+        "id": "menu-whatsapp",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "whatsapp",
+            "text": "Escribenos a Whatsapp"
+        },
+        "blockClass": "text__footer"
+    }
+  },
+  "menu-item#howToBuy--mobile":{
+    "props":{
+        "id": "menu-howToBuy",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "howToBuy",
+            "text": "Como Comprar"
+        },
+        "blockClass": "text__footer"
+    }
+},
+  "menu-item#us--mobile":{
+    "props":{
+        "id": "menu-us",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/about-us",
+            "tagTitle": "us",
+            "text": "Rooster Al Horno"
+        },
+        "blockClass": "text__footer"
+    }
+},
+  "menu-item#blog--mobile":{
+    "props":{
+        "id": "menu-blog",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "blog",
+            "text": "Nuestro Blog"
+        },
+        "blockClass": "text__footer"
+    }
+},
+  "menu-item#policies--mobile":{
+    "props":{
+        "id": "menu-policies",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "policies",
+            "text": "Políticas de Compra"
+        },
+        "blockClass": "text__footer"
+    }
+},
+  "menu-item#findUs--mobile":{
+    "props":{
+        "id": "menu-findUs",
+        "type": "custom",
+        "itemProps":{
+            "type": "internal",
+            "href": "/",
+            "tagTitle": "findUs",
+            "text": "Encuentanos"
+        },
+        "blockClass": "text__footer"
+    }
+},
+
+  //PAYMENT
+  "flex-layout.col#footer__mobile--payment":{
+    "children":[
+      "rich-text#payment--mobile",
+      "image#payment--mobile"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#payment--mobile":{
+    "props":{
+      "text":"# MEDIOS DE PAGO",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "titles_footer"
+    }
+  },
+  "image#payment--mobile":{
+    "props":{
+      "src":"assets/img/mobilePayment.png"
+    }
+  },
+
+  //CONTACTO
+
+  "flex-layout.col#footer__mobile--contact":{
+    "children":[
+        "rich-text#contact--mobile",
+        "rich-text#number--mobile",
+        "link#footer__mail--mobile"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#contact--mobile":{
+    "props":{
+      "text": "# CONTACTANOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titles_footer"
+    }
+  },
+  "rich-text#number--mobile":{
+    "props":{
+      "text": "316 619 2000",
+      "blockClass": "text__footer"
+    }
+  },
+  "link#footer__mail--mobile":{
+    "props":{
+      "label": "hola@roosteralhorno.com",
+      "href": "/",
+      "blockClass": "text__footer"
+    }
+  },
+
+  //INFORMACION LEGAL
+  "flex-layout.col#footer__mobile--legal":{
+    "children":[
+        "rich-text#legal",
+        "image#legal"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#--mobile":{
+    "props":{
+      "text": "# INFORMACIÓN LEGAL",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titles_footer"
+
+    }
+  },
+  "image#legal--mobile":{
+    "props":{
+      "src": "assets/img/envio.png"
+    }
+  }
+}

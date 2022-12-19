@@ -1,0 +1,90 @@
+{
+      //shelf de paginas individuales
+  "product-summary.shelf#desktop":{
+    "children":[
+      "flex-layout.col#image--plp", 
+      "flex-layout.col#info--plp"
+    ],
+    "props":{
+      "blockClass":"PLP"
+    }
+  },
+  "flex-layout.col#image--plp":{
+    "children":[
+      "product-summary-image#home--products--plp"
+    ],
+    "props":{
+      "blockClass":"imainaNamegeContainer--plp"
+    }
+    
+  },
+  "flex-layout.col#info--plp":{
+    "children":[
+      "product-summary-name#home--products--plp",
+      "product-list-price",  
+      "product-selling-price#home--products--plp"
+    ],
+    "props":{
+      "blockClass":"info--plp"
+    }
+  },
+  "product-summary-image#home--products--plp":{
+    "props":{
+      "blockClass":"image--plp"
+    }
+  },
+
+  "product-summary-name#home--products--plp":{
+    "props":{
+      "tag": "h1",
+      "blockClass":"pName--plp"
+    }
+  },
+  "product-selling-price#home--products--plp":{
+    "props":{
+     
+      "blockClass":"pPrice--plp"
+    }
+  },
+  //quick view modal
+  "modal-trigger#global__quick-view":{
+    "children":[
+      "rich-text#global__quick-view--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "rich-text#global__quick-view--trigger":{
+    "props":{
+      "text":"vista  rapida",
+      "blockClass": "quick-view__rigger"
+    }
+  },
+  "modal-layout#global__quick-view--modal":{
+    "children":[
+      "flex-layout.row#quick-view__modal"
+    ]
+  },
+  "flex-layout.row#quick-view__modal":{
+    "children":[
+      "flex-layout.col#quick-view__modal--image",
+      "flex-layout.col#quick-view__modal--info"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--image":{
+    "children":[
+      "product-images"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--info":{
+    "children":[
+      "add-to-list-btn",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-price",
+      "product-description",
+      "share",
+      "product-quantity",
+      "add-to-cart-button"
+    ]
+  }
+}

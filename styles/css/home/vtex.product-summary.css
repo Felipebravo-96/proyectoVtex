@@ -1,24 +1,15 @@
-.image--ACAAAAAAAAA{
+.image--image__home--products{
     height: 200px;
     width: 200px;
     z-index: 1;
     background-color: #ffffff;
     /* transform: skewY(5deg); */
 }
-/* .image--ACAAAAAAAAA:hover{
-    filter: grayscale(80%);
-    background-color: #ffffff;
-    z-index: 3;
-    
-} */
-.imageWrapper--ACAAAAAAAAA{
+
+.imageWrapper--image__home--products{
     margin: 0;
 }
-.nameContainer--pVitrinaName{
-   
-    /* transform: skewY(-5deg);
-    margin-top: 1rem; */
-}
+
 .productNameContainer--pVitrinaName{
    
     /* transform: skewY(5deg); */

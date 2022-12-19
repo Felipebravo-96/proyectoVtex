@@ -36,15 +36,12 @@
             "flex-layout.col#entregas",
             "flex-layout.col#tallas",
             "share#PDP",
-            "product-description",
-
-            
-            //"flex-layout.row#buy-button",
+            "product-description",        
             // "shipping-simulator",
             "availability-subscriber"
         ],
         "props":{
-          "blockClass": "PRRO",
+          "blockClass": "product__info--data",
           "rowGap": 5
         }
       },
@@ -124,42 +121,5 @@
         "props":{
           "blockClass": "p_share"
         }
-      },
-
-      "flex-layout.row#buy-button": {
-        "props": {
-          "marginTop": 4,
-          "marginBottom": 7
-        },
-        "children": ["buy-button#lola"]
-      },
-      "buy-button#lola":{
-        "props":{
-          
-          "shouldOpenMinicart": true,
-          "large": false
-        }
-      },
-      "modal-trigger#add-to-cart-info":{
-        "children":[
-          "modal-layout#add-to-cart-info"
-          
-        ],
-        "props":{
-          "customPixelEventName": "addToCart"
-        }
-      },
-      "modal-layout#add-to-cart-info":{
-        "children":[
-          "modal-header#add-to-cart-info",
-          "add-to-cart-info"
-        ]
-      },
-      "modal-header#add-to-cart-info":{
-        "props":{
-          "showCloseButton": true,
-          "iconCloseSize": 24
-        }
       }
-
 }
