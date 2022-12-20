@@ -7,7 +7,6 @@
         ],
         "props":{
             "blockClass": "banner__contact"
-
           }
         
     },
@@ -52,9 +51,6 @@
     "flex-layout.row#home__banner--image":{
         "title": "banner images",
         "children":[
-            // "responsive-layout.desktop#home__banner",
-            // "responsive-layout.tablet#home__banner",
-            // "responsive-layout.phone#home__banner"
             "image#banner__home--two",
             "image#banner__home--three"
         ],
@@ -62,30 +58,6 @@
             "horizontalAlign":"center",
             "blockClass": "promotionalBaners"
         }
-    },
-    "responsive-layout.desktop#home__banner":{
-        "children":[         
-            "image#banner__home--two",
-            "image#banner__home--three"
-
-        ],
-        "props":{
-            "horizontalAlign": "center",
-            "verticalAlign": "middle"
-            
-          }
-    },
-    // "flex-layout.row#home__banner--imagetwo" :{
-    //     "children":[
-    //         "image#banner__home--two",
-    //         "image#banner__home--three"
-    //     ]
-    // },
-    "responsive-layout.tablet#home__banner":{
-
-    },
-    "responsive-layout.phone#home__banner":{
-
     },
     "image#banner__home--two":{
         "title": "Banner 2",

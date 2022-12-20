@@ -1,7 +1,3 @@
-/* .sliderLayoutContainer--home__slider{
-    max-width: 1200px;
-    margin: 0 auto 50px;
-} */
 
 .paginationDotsContainer--home__slider{
     transform: translateY(30px);
@@ -10,15 +6,4 @@
 .imageElement--home__slider{
     max-height: auto !important;
     
-}
-.sliderLayoutContainer--mobile__slider--two{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-.paginationDotsContainer--mobile__slider--two{
-    transform: translateY(10px);
-}
-
-.paginationDotsContainer--products__slider{
-    transform: translateY(15px);
 }

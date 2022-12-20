@@ -48,20 +48,5 @@
             "displayMode": "button",
             "blockClass": "contactUsButton"
         }
-    },
-
-
-
-    "image#banner__home--two":{
-        "title": "Banner 2",
-        "props":{
-            "src": "assets/img/banner-two.webp"
-        }
-    },
-    "image#banner__home--three":{
-        "title": "Banner 3",
-        "props":{
-            "src": "assets/img/banner-three.webp"
-        }
     }
 }

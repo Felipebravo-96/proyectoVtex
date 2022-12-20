@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#product__tabs":{
+        "title": "informacion adicional de producto",
+        "children":[
+          "tab-layout#prodyct__tabs"
+        ]
+      },
+      "tab-layout#prodyct__tabs":{
+        "title": "Tabs container",
+        "children":[
+          "tab-list#products__tabs",
+          "tab-content#product__tabs"
+        ]
+      },
+      "tab-list#products__tabs":{
+        "title": "tabs titles",
+        "children":[
+          "tab-list.item#tabs__list--reviews"
+        ]
+      },
+      "tab-list.item#tabs__list--reviews":{
+        "title": "tab reviews",
+        "props":{
+          "tabId": "reviews",
+          "label": "Revisiones y calificaciones",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#tabs__list--products":{
+        "title": "tab product especification",
+        "props":{
+          "tabId": "products",
+          "label": "Especificaciones de producto",
+          "defaultActiveTab": false
+        }
+      },
+      "tab-list.item#tabs__list--questions":{
+        "title": "tab questions",
+        "props":{
+          "tabId": "questions",
+          "label": "Preguntas  y respuestas",
+          "defaultActiveTab": false
+        }
+      },
+      "tab-content#product__tabs":{
+        "title": "tabs contenido",
+        "children":[
+          "tab-content.item#tabs__list--reviews",
+          "tab-content.item#tabs__list--products",
+          "tab-content.item#tabs__list--questions"
+        ]
+      },
+      "tab-content.item#tabs__list--reviews":{
+        "title": "tab review content",
+        "props":{
+          "tabId": "reviews"
+        },
+        "children":[
+          "product-reviews"
+        ]
+      },
+      "tab-content.item#tabs__list--products":{
+        "title": "tab products content",
+        "props":{
+          "tabId": "products"
+        },
+        "children":[
+          "product-specifications"
+        ]
+      },
+      "tab-content.item#tabs__list--questions":{
+        "title": "tab questions content",
+        "props":{
+          "tabId":"questions"
+        },
+        "children":[
+          "questions-and-answers"
+        ]
+      }
+}

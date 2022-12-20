@@ -6,7 +6,8 @@
           "logo#header__top--logo",
           "rich-text#lema",
           "header-spacer",
-          "search-bar#home__search",
+          // "search-bar#home__search",
+          "department-search",
           "header-spacer",
           "minicart.v2"
         ],
@@ -32,95 +33,6 @@
           "blockClass": "lema"
         }
       },
-      "flex-layout.row#header__top--menu":{
-        "children":[
-            "link#header--menu1",
-            "link#header--menu2",
-            "link#header--menu3",
-            "link#header--menu4",
-            "link#header--menu5",
-            "link#header--menu6",
-            "link#header--menu7",
-            "link#header--menu8",
-            "link#header--menu9"
-        ]
-      },
-      "link#header--menu1":{
-        "title": "INICIO",
-        "props":{
-            "href": "/",
-            "label": "INICIO"
-        }
-      },
-      "link#header--menu2":{
-        "title": "NUEVA COLECCIÓN",
-        "props":{
-            "href": "/",
-            "label": "NUEVA COLECCIÓN"
-        }
-      },
-      "link#header--menu3":{
-        "title": "ANIMADOS",
-        "props":{
-            "href": "/",
-            "label": "ANIMADOS"
-        }
-      },
-      "link#header--menu4":{
-        "title": "TENIS",
-        "props":{
-            "href": "/",
-            "label": "TENIS"
-        }
-      },
-      "link#header--menu5":{
-        "title": "CLÁSICOS",
-        "props":{
-            "href": "/",
-            "label": "CLÁSICOS"
-        }
-      },
-      "link#header--menu6":{
-        "title": "SLIP ON",
-        "props":{
-            "href": "/",
-            "label": "SLIP ON"
-        }
-      },
-      "link#header--menu7":{
-        "title": "CÓMO COMPRAR",
-        "props":{
-            "href": "/",
-            "label": "CÓMO COMPRAR"
-        }
-      },
-      "link#header--menu8":{
-        "title": "CONTACTO",
-        "props":{
-            "href": "/",
-            "label": "CONTACTO"
-        }
-      },
-      "link#header--menu9":{
-        "title": "ENTREGA INMEDIATA",
-        "props":{
-            "href": "/",
-            "label": "ENTREGA INMEDIATA"
-        }
-      },
-      "rich-text#test":{
-        "props":{
-            "text": "Texto de Prueba"
-        }
-      },
-      "minicart.v2":{
-        "title": "Minicart",
-        "props":{
-          "itemCountMode": "total",
-          "quantityDisplay": "always"
-        }
-      },
-
       "autocomplete-result-list.v2": {
         "blocks": ["product-summary"]
       },

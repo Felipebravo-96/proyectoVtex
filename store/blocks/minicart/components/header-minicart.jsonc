@@ -1,0 +1,24 @@
+{
+          //header del minicart
+          "flex-layout.row#minicart__header":{
+            "children":[
+              "rich-text#minicart__header1",
+              "rich-text#minicart__header2"
+            ],
+            "props":{
+              "blockClass":"minicart_header"
+            }
+          },
+          "rich-text#minicart__header1":{
+            "props":{
+              "text":"PRODUCTO",
+              "blockClass":"minicart_header1"
+            }
+          },
+          "rich-text#minicart__header2":{
+            "props":{
+              "text":"SUBTOTAL",
+              "blockClass":"minicart_header1"
+            }
+          }
+}

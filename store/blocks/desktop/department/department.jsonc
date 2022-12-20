@@ -1,5 +1,5 @@
 {
-    "search-result-layout.desktop#department-este":{
+    "search-result-layout.desktop#department":{
         "children":[
             "responsive-layout.desktop#department"
         ]
@@ -18,9 +18,7 @@
     "flex-layout.col#desktop--filter":{
         "children":[
             "breadcrumb.search",
-            "filter-navigator.v3"
-            
-            
+            "filter-navigator.v3"  
         ],
         "props":{
             "width": "25%"
@@ -80,12 +78,10 @@
                     "name":"general-grid",
                     "component": "GeneralGrid",
                     "itemsPerRow": 3
-                    
-                    
                 }
             ],
             "GeneralGrid": "product-summary.shelf#desktop",
-            "blockClass": "HPPP"
+            "blockClass": "desktop__department"
         }
 
     }

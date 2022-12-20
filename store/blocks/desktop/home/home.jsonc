@@ -3,13 +3,10 @@
         "children": [
             "whatsapp-button",
             "slider-layout#home__slider--children",
-            // "flex-layout.row#bullets",
-           
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
-            "search-result-layout.customQuery#probando",
-            // "flex-layout.row#home__products",
-            // "flex-layout.row#home__products--button",
+            "search-result-layout.customQuery#home--products",
+            "flex-layout.row#home__products--button",
             "flex-layout.row#home__contactUs",
             "flex-layout.row#slider--products",
             "flex-layout.row#home__banner--image",
@@ -57,56 +54,7 @@
                     "link":{
                         "url": "/"
                         }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                },                
-                {           
-                    "image": "assets/img/teni2.jpg",
-                    "titleBullet": "Ropa",
-                    "link":{
-                        "url": "/"
-                        }
-                }
+                }        
             ]
             
         }

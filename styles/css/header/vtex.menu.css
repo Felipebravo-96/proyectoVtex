@@ -11,14 +11,3 @@
     gap: 40px;
     padding: 0%;
 }
-.styledLinkContent--text__footer{
-    color: #5F6A79;
-    font-family: "Lato";
-    font-size: 14px;
-}
-
-
-.styledLinkContent--text__footer:hover {
-    color: #273E5B;
-    text-decoration: none;
-}

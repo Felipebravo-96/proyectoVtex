@@ -1,0 +1,58 @@
+{
+      //productos del home mobil
+
+  "product-summary.shelf#mobile__home--products":{
+    "children":[
+      "flex-layout.col#mobile__image", 
+      "flex-layout.col#mobile__info" 
+    ],
+    "props":{
+      "blockClass":"containerCard"
+    }
+  },
+  "flex-layout.col#mobile__image":{
+    "children":[
+      "product-summary-image#mobile__home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaImage"
+    }
+    
+  },
+  "flex-layout.col#mobile__info":{
+    "children":[
+      "product-summary-name#mobile__home--products",
+      "product-list-price",  
+      "product-selling-price#mobile__home--products"
+    ],
+    "props":{
+      "blockClass":"pVitrinaInfo"
+    }
+  },
+  "product-summary-image#mobile__home--products":{
+    "props":{
+      "blockClass":"image__home--products"
+    }
+  },
+
+  "product-summary-name#mobile__home--products":{
+    "props":{
+      "tag": "h1",
+      "blockClass":"pVitrinaName"
+    }
+  },
+  "product-selling-price#mobile__home--products":{
+    "props":{
+     
+      "blockClass":"pVitrinaPrice"
+    }
+  },
+  "product-summary-sku-selector#mobile__home--products":{
+    "props":{
+      
+      "hideImposibleCombinations" : false,
+      "displayMode": "select"
+     
+    }
+  }
+}

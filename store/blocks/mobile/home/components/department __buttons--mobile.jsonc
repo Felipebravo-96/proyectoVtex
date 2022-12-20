@@ -2,7 +2,7 @@
   "flex-layout.row#home__mobile--baseButtons":{
   "title": "Buttons categories mobile",
   "children": [
-    "flex-layout.row#section__buttonss" 
+    "flex-layout.row#section__buttons--mobile" 
   ],
   "props":{
     "blockClass":"home__mobile--baseButtons",
@@ -11,23 +11,16 @@
   }
 },
 
-  "rich-text#section__buttons--title":{
-    "title": "tittle buttons",
-    "props":{
-      "text": "# CATEGORÍAS PRINCIPALES",
-      "blockClass": "Texto-Categorias"
-    }
-  },
-  "flex-layout.row#section__buttonss":{
+  "flex-layout.row#section__buttons--mobile":{
     "title": "Buttons",
     "children":[
-      "link#home__link--button1",
-      "link#home__link--button2",
-      "link#home__link--button3",
-      "link#home__link--button4",
-      "link#home__link--button5",
-      "link#home__link--button6",
-      "link#home__link--button7"
+      "link#home__mobile--button1",
+      "link#home__mobile--button2",
+      "link#home__mobile--button3",
+      "link#home__mobile--button4",
+      "link#home__mobile--button5",
+      "link#home__mobile--button6",
+      "link#home__mobile--button7"
     ],
     "props":{
       "verticalAlign": "middle",
@@ -36,7 +29,7 @@
     }
   },
 
-  "link#home__link--button1":{
+  "link#home__mobile--button1":{
     "title": "Button tenis",
     "props":{
       "href": "/madera?map=ft&_q=madera",
@@ -46,7 +39,7 @@
       
     }
   },
-  "link#home__link--button2":{
+  "link#home__mobile--button2":{
     "title": "Button animados",
     "props":{
       "href": "/cemento?map=ft&_q=cemento",
@@ -55,7 +48,7 @@
       "blockClass":"mobile__buttons-design"
     }
   },
-  "link#home__link--button3":{
+  "link#home__mobile--button3":{
     "title": "Button estampados",
     "props":{
       "href": "/sol?map=ft&_q=sol",
@@ -64,7 +57,7 @@
       "blockClass":"mobile__buttons-design"
     }
   },
-  "link#home__link--button4":{
+  "link#home__mobile--button4":{
     "title": "Button slip on",
     "props":{
       "href": "/zapatos?map=ft&_q=zapatos",
@@ -73,7 +66,7 @@
       "blockClass":"mobile__buttons-design"
     }
   },
-  "link#home__link--button5":{
+  "link#home__mobile--button5":{
     "title": "Button classics",
     "props":{
       "href": "/queso?map=ft&_q=queso",
@@ -82,7 +75,7 @@
       "blockClass":"mobile__buttons-design"
     }
   },
-  "link#home__link--button6":{
+  "link#home__mobile--button6":{
     "title": "Button entrega",
     "props":{
       "href": "/varilla?map=ft&_q=varilla",
@@ -91,7 +84,7 @@
       "blockClass":"mobile__buttons-design"
     }
   },
-  "link#home__link--button7":{
+  "link#home__mobile--button7":{
     "title": "Button cookies",
     "props":{
       "href": "/ladrillo?map=ft&_q=ladrillo",

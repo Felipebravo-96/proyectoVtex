@@ -3,8 +3,6 @@
  
     align-items: center;
 }
-
-
 .flexCol--texto2{
     font-family: 'Nunito', sans-serif;
     align-items: center;
@@ -14,41 +12,7 @@
     align-items: center;
 }
 
-.flexRow--footerOne{
-    background: #fff;
-    border-bottom: 1px solid #7D7D7D;
-    box-shadow: inset 1px 4px 7px -6px;
-    color: #5F6A79;
-    font-family: "Lato";
-}
-
-.flexRow--footerTwo {
-  
-}
-
-.flexColChild--createdBy{
-    display: flex;
-    justify-content: end;
-    margin-top: 15px;
-    margin-right: 86px;
-} 
-
-
-
-
-.flexRow--subtotalCart{
-    font-size: 14px;
-    font-family: "lato";
-    display: flex;
-    justify-content: center;
-    justify-items: end; 
-    margin-left: 120px;
-    
-    
-}
-
-
-.flexRowContent--mobile__button--container :global(.vtex-store-link-0-x-link){
+.flexRowContent--category__buttons :global(.vtex-store-link-0-x-link){
     background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
     color: #fff;
     fill: #fff;
@@ -62,26 +26,7 @@
     text-decoration: none;
     outline: 0;
 }
-.flexRowContent--mobile__button--container :global(.vtex-store-link-0-x-link):hover{
-    border-bottom: 4px solid rgba(29,254,216,0.9);
-
-}
-
-.flexRowContent--BOTONESSSSSSSSSSS :global(.vtex-store-link-0-x-link){
-    background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);
-    color: #fff;
-    fill: #fff;
-    border: none;
-    padding: 14px 20px;
-    border-bottom: 4px solid #01e7c0;
-    border-radius: 4px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    outline: 0;
-}
-.flexRowContent--BOTONESSSSSSSSSSS :global(.vtex-store-link-0-x-link):hover{
+.flexRowContent--category__buttons :global(.vtex-store-link-0-x-link):hover{
     border-bottom: 4px solid rgba(29,254,216,0.9);
 
 }
@@ -97,7 +42,7 @@
     margin-top: 2rem;
 }
 /* PDP */
-.flexCol--PRRO{
+/* .flexCol--PRRO{
     color: #5F6A79;
     font-family: "Lato";
 }
@@ -144,7 +89,7 @@
     border: 1px solid rgba(95,106,121,0.08);
     background-color: #fefefe;
     border-radius: 4px;
-}
+} */
 
 
 
@@ -191,52 +136,8 @@
     top: -28px;
     border-color: transparent transparent #f7f7f7 transparent; */
 }
-.flexColChild--pVitrinaInfo{
-    /* transform: skewY(5deg); */
-    
-}
-/*  */
 
-.flexRow--containerFilter{
-    position: absolute;
-    width: 20rem;
-    margin-left: 25px;
-}
 
-/* plp */
-
-    .flexCol--imageContainer--plp{
-    border-radius: 0;
-   
-    opacity: 2;   
-   }
-   .flexCol--imageContainer--plp:hover{
-       z-index: 5;
-       /* filter: grayscale(30%);*/
-       /* filter: blur(5px); */
-       /* filter: drop-shadow(16px 16px 20px rgb(82, 82, 206)); */
-       filter: opacity(50%);
-   }
-   .flexCol--info--plp{
-       background-color: #F7F7F7;
-
-       color: rgba(95,106,121,0.8);
-       font-size: 18px;
-       letter-spacing: 2px;
-       font-family: "Nunito";
-   }
-   .flexCol--info--plp::before{
-     
-       content: "";
-       border-style: solid;
-       border-width: 0 0px 28px 275px;
-       border-color: #ffffff #ffffff #f7f7f7 #ffffff;
-  
-   }
-   .gallery--HPPP{
-    margin-top: 6rem;
-   }
-/* plp */
 
 .flexColChild--banner__contact :global(.vtex-store-link-0-x-link){
     background: linear-gradient(to bottom, rgba(29,254,216,0.7) 0%, rgba(29,254,216,0.9) 100%);

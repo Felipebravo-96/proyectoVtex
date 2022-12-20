@@ -1,0 +1,28 @@
+{
+        //section one
+        "flex-layout.row#footer__section--one--mobile":{
+            "children":[
+              "flex-layout.col#footer__section--redes--mobile"
+            ]
+          },
+        
+          "flex-layout.col#footer__section--redes--mobile":{
+            "children":[
+              "rich-text#follow--mobile",
+              "social-networks",
+              "slider-layout#mobile__slider--two"
+            ],
+            "props":{
+              "horizontalAlign" :"center",
+              "verticalAlign":"middle"
+            }
+          },
+        
+          "rich-text#follow--mobile":{
+            "props": {
+              "text": "#### SEGUINOS",
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER"
+            }
+          }
+}

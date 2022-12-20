@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#footer__section--one":{
+        "title": "footer section 1",
+        "children":[
+          "flex-layout.col#footer__section--redes"
+        ]
+      },
+    
+      "flex-layout.col#footer__section--redes":{
+        "title": "footer section redes",
+        "children":[
+          "rich-text#follow",
+          "social-networks",
+          "flex-layout.row#home__section--one"
+        ],
+        "props":{
+          "horizontalAlign" :"center",
+          "verticalAlign":"middle"
+        }
+      },
+    
+      "rich-text#follow":{
+        "title": "Seguinos",
+        "props": {
+          "text": "SEGUINOS"
+        }
+      },
+      "social-networks":{
+        "title": "Social Networks",
+        "props":{
+          "socialNetworks":[
+            {
+              "url": "https://www.facebook.com/roosteralhorno",
+              "name": "Facebook"
+            },
+            {
+              "url": "https://twitter.com/Roosteralhorno",
+              "name": "Twitter"
+            },
+            {
+              "url": "https://www.pinterest.es/roosteralhorno/",
+              "name": "Pinterest"
+            }
+          ]
+        }
+      }
+}
