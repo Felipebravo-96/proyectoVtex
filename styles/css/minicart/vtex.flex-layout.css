@@ -1,20 +1,18 @@
-/* .flexCol--buttonQuantity{
-    z-index: 5;
-   
-} */
+.flexRow--subtotalCart{
+    font-size: 14px;
+    font-family: "lato";
+    display: flex;
+    justify-content: center;
+    justify-items: end; 
+    margin-left: 120px;   
+}
 
 .flexColChild--buttonQuantity{
     font-size: 14px;
     font-family: "lato";
 }
 
-/* .flexCol--buttonQuantity :global(.vtex-product-list-0-x-quantitySelectorContainer){
-    width:1%;
 
-} */
-.flexCol--buttonQuantity{
-    
-}
 .flexCol--buttonQuantity :global(.vtex-product-list-0-x-quantitySelectorButton){
     padding: 0;
 }

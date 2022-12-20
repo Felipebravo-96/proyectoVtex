@@ -42,7 +42,7 @@
           "quantity-selector#minicart":{
             "props":{
               "mode": "stepper",
-              "blockClass": "STEPEEEE"
+              "blockClass": "stepper__minicart"
             }
           },
     

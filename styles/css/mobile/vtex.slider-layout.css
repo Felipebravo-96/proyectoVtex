@@ -1,0 +1,11 @@
+.sliderLayoutContainer--mobile__slider--two{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.paginationDotsContainer--mobile__slider--two{
+    transform: translateY(10px);
+}
+
+.paginationDotsContainer--products__slider{
+    transform: translateY(15px);
+}

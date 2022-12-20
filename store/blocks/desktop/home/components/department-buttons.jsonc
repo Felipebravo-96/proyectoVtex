@@ -45,7 +45,7 @@
     "props":{
       "verticalAlign": "middle",
       "colGap": 4,
-      "blockClass":"BOTONESSSSSSSSSSS"
+      "blockClass":"category__buttons"
     }
   },
 
