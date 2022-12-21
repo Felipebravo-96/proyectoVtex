@@ -6,8 +6,8 @@
           "logo#header__top--logo",
           "rich-text#lema",
           "header-spacer",
-          // "search-bar#home__search",
-          "department-search",
+          "search-bar#home__search",
+          //"department-search",
           "header-spacer",
           "minicart.v2"
         ],
