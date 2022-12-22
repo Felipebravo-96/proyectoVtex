@@ -49,6 +49,7 @@ Additionally you will have to install the following custom applications from the
     "{vendor}.quick-order": "0.x",
     "{vendor}.special-diagramation": "0.x"
 }
+```
 
 ### Step 5 -  Uninstalling any existing theme
 
