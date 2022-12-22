@@ -3,6 +3,7 @@
         "children": [
             "whatsapp-button",
             "slider-layout#home__slider--children",
+            //"quick-order",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
             "search-result-layout.customQuery#home--products",

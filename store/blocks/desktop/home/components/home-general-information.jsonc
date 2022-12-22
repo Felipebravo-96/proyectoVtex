@@ -44,9 +44,10 @@
 
       "icon#prueba":{
         "props":{
-          "id": "sti-clock",
+          "id": "carro-prueba",
           "size": 15,
-          "orientation": "left"
+          "orientation": "left",
+          "viewBox":"598 -476.1 1792 1792"
         }
       },
       "rich-text#section__one--title":{
