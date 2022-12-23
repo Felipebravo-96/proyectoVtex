@@ -65,7 +65,8 @@
     "rich-text#mobile--titulo__newsletter":{
         "title": "newsletter title",
         "props": {
-            "text": "NUESTRO NEWSLETTER"
+            "text": "NUESTRO NEWSLETTER",
+            "blockClass": "mobile__titles"
         }
     },
     "rich-text#mobile--text__newsletter":{
@@ -86,7 +87,7 @@
     "flex-layout.col#mobile--facebook":{
         "title": "facebook",
         "children":[
-            "rich-text#titulo__facebook",
+            "rich-text#mobile--titulo__facebook",
             "flex-layout.col#facebook__mainSection"
         ],
         "props":{
@@ -98,7 +99,8 @@
     "rich-text#mobile--titulo__facebook":{
         "title": "facebook title",
         "props": {
-            "text": "Estamos en Facebook"
+            "text": "ESTAMOS EN FACEBOOK",
+            "blockClass": "mobile__titles"
         }
     },
     "flex-layout.col#mobile__facebook__mainSection":{

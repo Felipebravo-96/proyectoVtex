@@ -3,7 +3,10 @@
         "title": "informacion adicional de producto",
         "children":[
           "tab-layout#prodyct__tabs"
-        ]
+        ],
+        "props":{
+          "blockClass": "tab_container"
+        }
       },
       "tab-layout#prodyct__tabs":{
         "title": "Tabs container",

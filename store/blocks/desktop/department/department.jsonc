@@ -27,7 +27,8 @@
 
     "filter-navigator.v3":{
         "props":{
-            "layout":"responsive"
+            "layout":"responsive",
+            "blockClass": "filtro"
         }
     },
     "drawer#filter":{

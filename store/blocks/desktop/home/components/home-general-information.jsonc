@@ -34,7 +34,7 @@
 
       "flex-layout.row#section--title--icon-1":{
         "children":[
-          "icon#prueba",
+          "icon#transport",
           "rich-text#section__one--title"
         ],
         "props":{
@@ -42,9 +42,9 @@
         }
       },
 
-      "icon#prueba":{
+      "icon#transport":{
         "props":{
-          "id": "carro-prueba",
+          "id": "carro",
           "size": 15,
           "orientation": "left",
           "viewBox":"598 -476.1 1792 1792"
@@ -77,11 +77,19 @@
       },
       "flex-layout.row#section--title--icon-2":{
         "children":[
-          "icon#prueba",
+          "icon#card",
           "rich-text#section__two--title"
         ],
         "props":{
           "blockClass": "title_icon"
+        }
+      },
+      "icon#card":{
+        "props":{
+          "id": "card",
+          "size": 15,
+          "orientation": "left",
+          "viewBox":"598 -476.1 1792 1792"
         }
       },
       "rich-text#section__two--title":{
@@ -112,11 +120,19 @@
       },
       "flex-layout.row#section--title--icon-3":{
         "children":[
-          "icon#prueba",
+          "icon#safe",
           "rich-text#section__three--title"
         ],
         "props":{
           "blockClass": "title_icon"
+        }
+      },
+      "icon#safe":{
+        "props":{
+          "id": "safe",
+          "size": 15,
+          "orientation": "left",
+          "viewBox":"598 -476.1 1792 1792"
         }
       },
       "rich-text#section__three--title":{

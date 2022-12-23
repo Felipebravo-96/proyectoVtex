@@ -12,6 +12,7 @@
     //menu drawer
     "drawer#header__mobile--menu":{
         "children": [
+            
             "menu#mobile--menu"
 
         ],      
@@ -49,8 +50,7 @@
       //menu items
     "menu#mobile--menu":{
         "children":[
-            "menu-item#create__account--mobile",
-            "menu-item#login--mobile",
+            "login",
             "menu-item#department__two--mobile",
             "menu-item#department__three--mobile",
             "menu-item#department__four--mobile",
@@ -100,7 +100,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": true,
                 "tagTitle": "nueva colección",
                 "text": "NUEVA COLECCIÓN"
@@ -114,7 +114,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/ladrillos?map=ft&_q=ladrillos",
                 "noFollow": true,
                 "tagTitle": "animados",
                 "text": "ANIMADOS"
@@ -128,7 +128,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/zapatos-vans-url/p",
                 "noFollow": true,
                 "tagTitle": "tenis",
                 "text": "TENIS"
@@ -142,7 +142,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/puerta?map=ft&_q=puerta",
                 "noFollow": true,
                 "tagTitle": "clásicos",
                 "text": "CLÁSICOS"
@@ -156,7 +156,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/sol/p",
                 "noFollow": true,
                 "tagTitle": "slip on",
                 "text": "SLIP ON"
@@ -170,7 +170,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p",
                 "noFollow": true,
                 "tagTitle": "como comprar",
                 "text": "CÓMO COMPRAR"
@@ -184,7 +184,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": true,
                 "tagTitle": "contacto",
                 "text": "CONTACTO"
@@ -200,7 +200,7 @@
             "type": "custom",
             "itemProps":{
                 "type": "external",
-                "href": "/",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": true,
                 "tagTitle": "entregas",
                 "text": "ENTREGA INMEDIATA"
