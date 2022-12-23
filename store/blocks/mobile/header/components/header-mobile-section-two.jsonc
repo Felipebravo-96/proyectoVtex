@@ -5,7 +5,8 @@
             "header-spacer",
             "link#header__mobile--menu2",
             "header-spacer",
-            "minicart.v2"
+            "link#header__mobile--menu3"
+            
         ],
         "props":{
           "blockClass": "header__top",
@@ -29,11 +30,19 @@
       },
       "flex-layout.col#mobile__menu--inicio":{
         "children":[
-          "icon#prueba",
+          "icon#home",
           "rich-text#mobile__menu--inicio"
         ],
         "props":{
           "blockClass":"mobile__menu--inicio"
+        }
+      },
+      "icon#home":{
+        "props":{
+          "id": "home",
+          "size": 15,
+          "orientation": "left",
+          "viewBox":"598 -476.1 1792 1792"
         }
       },
       "rich-text#mobile__menu--inicio":{
@@ -57,7 +66,7 @@
       },
       "flex-layout.col#mobile__menu--productos":{
         "children":[
-          "icon#prueba",
+          "drawer#header__mobile--menuSecondary",
           "rich-text#mobile__menu--productos"
         ],
         "props":{
@@ -68,6 +77,37 @@
         "props":{
           "text": "PRODUCTOS",
           "blockClass": "mobile__menu--productos"
+        }
+      },
+      "link#header__mobile--menu3":{
+        "children":[
+          "flex-layout.row#mobile__menu--cart"
+        ]
+
+      },
+      "flex-layout.row#mobile__menu--cart":{
+        "children":[
+          "flex-layout.col#mobile__menu--cart"
+        ]
+      },
+      "flex-layout.col#mobile__menu--cart":{
+        "children":[
+          "minicart.v2#mobile-cart",
+          "rich-text#mobile__menu--cart"
+        ],
+        "props":{
+          "blockClass":"mobile__menu--cart"
+        }
+      },
+      "rich-text#mobile__menu--cart":{
+        "props":{
+          "text": "CARRITO",
+          "blockClass": "mobile__menu--cart"
+        }
+      },
+      "minicart.v2#mobile-cart":{
+        "props":{
+          "blockClass": "container__cart--mobile"
         }
       }
 

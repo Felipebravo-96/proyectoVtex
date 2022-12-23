@@ -1,0 +1,15 @@
+.wrapper--extra-info{
+    border: 1px solid rgba(95,106,121,0.08);
+    background-color: #fefefe;
+    border-radius: 4px;
+    color: #5F6A79;
+    font-size: 14px;
+    font-family: "Lato";
+}
+.headingLevel4--PDP-titles{
+    margin-bottom: 0;
+    color: #5F6A79;
+    font-family: "Lato";
+    font-size: 20px;
+}
+

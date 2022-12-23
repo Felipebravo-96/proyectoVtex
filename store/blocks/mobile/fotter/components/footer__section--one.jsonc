@@ -22,7 +22,8 @@
             "props": {
               "text": "#### SEGUINOS",
               "textAlignment": "CENTER",
-              "textPosition": "CENTER"
+              "textPosition": "CENTER",
+              "blockClass": "follow_title"
             }
           }
 }

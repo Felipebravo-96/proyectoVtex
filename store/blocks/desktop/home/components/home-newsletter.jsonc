@@ -65,7 +65,8 @@
     "rich-text#titulo__newsletter":{
         "title": "newsletter title",
         "props": {
-            "text": "NUESTRO NEWSLETTER"
+            "text": "NUESTRO NEWSLETTER",
+            "blockClass": "newsletter_title"
         }
     },
     "rich-text#text__newsletter":{
@@ -98,7 +99,8 @@
     "rich-text#titulo__facebook":{
         "title": "facebook title",
         "props": {
-            "text": "Estamos en Facebook"
+            "text": "ESTAMOS EN FACEBOOK",
+            "blockClass": "facebook_title"
         }
     },
     "flex-layout.col#facebook__mainSection":{

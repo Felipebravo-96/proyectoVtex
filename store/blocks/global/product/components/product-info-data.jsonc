@@ -71,13 +71,15 @@
       "rich-text#devoluciones--title":{
         "title": "devoluciones title",
         "props":{
-          "text": "#### Sin Cambios ni Devoluciones"
+          "text": "#### Sin Cambios ni Devoluciones",
+          "blockClass": "PDP-titles"
         }
       },
       "rich-text#devoluciones--info":{
         "title": "devoluciones info",
         "props":{
-          "text": "Todos nuestros tenis son para mujeres y se elaboran por pedido y no tienen ningún tipo de cambio ni devoluciones."
+          "text": "Todos nuestros tenis son para mujeres y se elaboran por pedido y no tienen ningún tipo de cambio ni devoluciones.",
+          "blockClass": "extra-info"
         }
       },
       "flex-layout.col#entregas":{
@@ -90,13 +92,15 @@
       "rich-text#entregas--title":{
         "title": "entregas title",
         "props":{
-          "text": "#### Entregas"
+          "text": "#### Entregas",
+          "blockClass": "PDP-titles"
         }
       },
       "rich-text#entregas--info":{
         "title": "entregas info",
         "props":{
-          "text": "Los tenis comprados en OFERTA toman un poco mas de tiempo, pregunta por la fecha de entrega."
+          "text": "Los tenis comprados en OFERTA toman un poco mas de tiempo, pregunta por la fecha de entrega.",
+          "blockClass": "extra-info"
         }
       },
       "flex-layout.col#tallas":{
@@ -109,13 +113,15 @@
       "rich-text#tallas--title":{
         "title": "tallas title",
         "props":{
-          "text": "#### Tallas Nacionales"
+          "text": "#### Tallas Nacionales",
+          "blockClass": "PDP-titles"
         }
       },
       "rich-text#tallas--info":{
         "title": "tallas info",
         "props":{
-          "text": "Los tenis son elaborados en Tallas nacionales NORMALES, si tienes dudas escríbenos por Whatsapp."
+          "text": "Los tenis son elaborados en Tallas nacionales NORMALES, si tienes dudas escríbenos por Whatsapp.",
+          "blockClass": "extra-info"
         }
       },
       "share#PDP":{

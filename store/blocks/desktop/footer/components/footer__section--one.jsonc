@@ -22,7 +22,8 @@
       "rich-text#follow":{
         "title": "Seguinos",
         "props": {
-          "text": "SEGUINOS"
+          "text": "# SEGUINOS",
+          "blockClass": "Texto-Categorias"
         }
       },
       "social-networks":{

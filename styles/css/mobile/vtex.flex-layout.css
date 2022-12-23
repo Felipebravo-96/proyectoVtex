@@ -48,3 +48,6 @@
     border-bottom: 4px solid rgba(29,254,216,0.9);
 
 }
+.flexColChild--mobile__menu--cart{
+    align-self: center;
+}

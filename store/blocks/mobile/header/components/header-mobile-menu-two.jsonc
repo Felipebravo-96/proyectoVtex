@@ -1,0 +1,165 @@
+{
+    //menu drawer
+    "drawer#header__mobile--menuSecondary":{
+        "blocks": ["drawer-trigger"],
+        "children": [
+            "menu#mobile--menuSecondary"
+
+        ],      
+        "props":{
+            "blockClass": "menu_container",
+            "slideDirection": "vertical"
+        } 
+    },
+
+    "drawer-trigger":{
+        "children":[
+            "icon#drawer"
+        ]
+        
+    },
+    "icon#drawer":{
+        "props":{
+          "id": "menu",
+          "size": 15,
+          "orientation": "left",
+          "viewBox":"598 -476.1 1792 1792"
+        }
+      },
+    
+
+      //menu items
+    "menu#mobile--menuSecondary":{
+        "children":[
+            "menu-item#menuSecondary__two--mobile",
+            "menu-item#menuSecondary__three--mobile",
+            "menu-item#menuSecondary__four--mobile",
+            "menu-item#menuSecondary__five--mobile",
+            "menu-item#menuSecondary__six--mobile",
+            "menu-item#menuSecondary__seven--mobile",
+            "menu-item#menuSecondary__eight--mobile",
+            "menu-item#menuSecondary__nine--mobile"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass": "menu_text",
+            "fullWidth": true
+          }
+    },
+
+    "menu-item#menuSecondary__two--mobile":{
+        "props":{
+            "id": "menuSecondary__two--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/zapatos-vans-url/p",
+                "noFollow": true,
+                "tagTitle": "nueva colección",
+                "text": "NUEVA COLECCIÓN"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__three--mobile":{
+        "props":{
+            "id": "menuSecondary__three--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/zapatos-vans-url/p",
+                "noFollow": true,
+                "tagTitle": "animados",
+                "text": "ANIMADOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__four--mobile":{
+        "props":{
+            "id": "menuSecondary__four--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/puerta?map=ft&_q=puerta",
+                "noFollow": true,
+                "tagTitle": "tenis",
+                "text": "TENIS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__five--mobile":{
+        "props":{
+            "id": "department__five--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/sol/p",
+                "noFollow": true,
+                "tagTitle": "clásicos",
+                "text": "CLÁSICOS"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__six--mobile":{
+        "props":{
+            "id": "menuSecondary__six--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/sol/p",
+                "noFollow": true,
+                "tagTitle": "slip on",
+                "text": "SLIP ON"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__seven--mobile":{
+        "props":{
+            "id": "menuSecondary__seven--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p",
+                "noFollow": true,
+                "tagTitle": "como comprar",
+                "text": "CÓMO COMPRAR"
+            },
+            "blockClass": "items"
+        }
+    },
+    "menu-item#menuSecondary__eight--mobile":{
+        "props":{
+            "id": "menuSecondary__eight--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p",
+                "noFollow": true,
+                "tagTitle": "contacto",
+                "text": "CONTACTO"
+            },
+            "blockClass": "items",
+            "fullWidth": true
+            
+        }
+    },
+    "menu-item#menuSecondary__nine--mobile":{
+        "props":{
+            "id": "menuSecondary__nine--mobile",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
+                "noFollow": true,
+                "tagTitle": "entregas",
+                "text": "ENTREGA INMEDIATA"
+            },
+            "blockClass": "items"
+        }
+    }
+
+}

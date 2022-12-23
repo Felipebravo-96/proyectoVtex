@@ -77,21 +77,21 @@
             "bullets": 
                 [
                 {           
-                    "image": "assets/img/teni1.jpg",
+                    "image": "assets/img/slider1.png",
                     "titleBullet": "Computadores",
                     "link":{
                         "url": "/"
                         }
                 },
                 {           
-                    "image": "assets/img/teni2.jpg",
+                    "image": "assets/img/slider1.png",
                     "titleBullet": "Ropa",
                     "link":{
                         "url": "/"
                         }
                 },
                 {           
-                    "image": "assets/img/teni2.jpg",
+                    "image": "assets/img/slider1.png",
                     "titleBullet": "Ropa",
                     "link":{
                         "url": "/"
