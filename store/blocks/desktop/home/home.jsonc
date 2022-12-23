@@ -4,6 +4,8 @@
             "whatsapp-button",
             "slider-layout#home__slider--children",
             //"quick-order",
+            //"custom-grid",
+            //"flex-layout.row#bullets",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--baseButtons",
             "search-result-layout.customQuery#home--products",
@@ -22,6 +24,45 @@
             "message": "Rooster Al Horno"
         }
     },
+
+    "custom-grid":{
+        "children":[
+            "rich-text#custom-grid-1",
+            "rich-text#custom-grid-2",
+            "rich-text#custom-grid-3",
+            "rich-text#custom-grid-4",
+            "rich-text#custom-grid-5"
+        ]
+    },
+
+    "rich-text#custom-grid-1":{
+        "props":{
+            "text": "Grilla 1"
+        }
+    },
+    "rich-text#custom-grid-2":{
+        "props":{
+            "text": "Grilla 2"
+        }
+    },
+    "rich-text#custom-grid-3":{
+        "props":{
+            "text": "Grilla 3"
+        }
+    },
+    "rich-text#custom-grid-4":{
+        "props":{
+            "text": "Grilla 4"
+        }
+    },    
+    "rich-text#custom-grid-5":{
+        "props":{
+            "text": "Grilla 5"
+        }
+    },
+
+
+    //
     "flex-layout.row#bullets":{
         "children":[
             "list-context.bullet-group"
