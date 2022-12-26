@@ -1,6 +1,7 @@
 {
     "responsive-layout.desktop#home":{
         "children": [
+            //hola
             "whatsapp-button",
             "slider-layout#home__slider--children",
             //"quick-order",

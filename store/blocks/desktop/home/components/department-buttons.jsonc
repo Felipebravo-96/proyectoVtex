@@ -25,9 +25,9 @@
     }
   },
   "rich-text#section__buttons--title":{
-    "title": "tittle buttons",
+    "title": "tittls",
     "props":{
-      "text": "# CATEGORÍAS PRINCIPALES",
+      "text": "# CATEGORIAS PRINCIPALES",
       "blockClass": "Texto-Categorias"
     }
   },
